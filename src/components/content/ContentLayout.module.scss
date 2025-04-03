@@ -1,0 +1,171 @@
+@import '@/styles/variables.scss';
+
+.contentPage {
+  min-height: 100vh;
+  padding: $spacing-4 $spacing-4 $spacing-20;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  
+  @include for-md-up {
+    padding: $spacing-8 $spacing-8 $spacing-24;
+  }
+  
+  @include for-lg-up {
+    padding: $spacing-12 $spacing-12 $spacing-32;
+  }
+}
+
+.header {
+  margin-bottom: $spacing-8;
+  
+  @include for-md-up {
+    margin-bottom: $spacing-12;
+  }
+}
+
+.title {
+  font-family: $font-title;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-3xl;
+  margin-bottom: $spacing-4;
+  background: linear-gradient(45deg, var(--color-blue), var(--color-green));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+  @include for-md-up {
+    font-size: $font-size-4xl;
+  }
+  
+  @include for-lg-up {
+    font-size: 3.5rem;
+  }
+}
+
+.subtitle {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-medium;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 800px;
+  
+  @include for-md-up {
+    font-size: $font-size-xl;
+  }
+}
+
+.content {
+  font-size: $font-size-base;
+  line-height: $line-height-relaxed;
+  color: rgba(255, 255, 255, 0.85);
+  
+  @include for-md-up {
+    font-size: $font-size-lg;
+  }
+  
+  /* 样式化内容中的标题 */
+  h2 {
+    font-family: $font-title;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-2xl;
+    margin-top: $spacing-12;
+    margin-bottom: $spacing-6;
+    color: var(--color-white);
+    
+    @include for-md-up {
+      font-size: $font-size-3xl;
+    }
+  }
+  
+  h3 {
+    font-family: $font-title;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-xl;
+    margin-top: $spacing-8;
+    margin-bottom: $spacing-4;
+    color: var(--color-white);
+    
+    @include for-md-up {
+      font-size: $font-size-2xl;
+    }
+  }
+  
+  /* 样式化内容中的段落 */
+  p {
+    margin-bottom: $spacing-6;
+  }
+  
+  /* 样式化内容中的列表 */
+  ul, ol {
+    margin-bottom: $spacing-6;
+    padding-left: $spacing-6;
+    
+    li {
+      margin-bottom: $spacing-2;
+    }
+  }
+  
+  /* 样式化内容中的引用 */
+  blockquote {
+    margin: $spacing-8 0;
+    padding: $spacing-4 $spacing-6;
+    border-left: 4px solid var(--color-blue);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: $radius-md;
+    font-style: italic;
+    
+    p {
+      margin-bottom: 0;
+    }
+  }
+  
+  /* 样式化内容中的代码块 */
+  pre {
+    margin: $spacing-6 0;
+    padding: $spacing-4;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: $radius-md;
+    overflow-x: auto;
+    font-family: $font-code;
+    font-size: $font-size-sm;
+  }
+  
+  /* 样式化内容中的内联代码 */
+  code {
+    font-family: $font-code;
+    font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2em 0.4em;
+    border-radius: $radius-sm;
+  }
+  
+  /* 样式化内容中的图片 */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $radius-md;
+    margin: $spacing-6 0;
+  }
+  
+  /* 样式化内容中的表格 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: $spacing-6 0;
+    
+    th, td {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: $spacing-2 $spacing-3;
+      text-align: left;
+    }
+    
+    th {
+      background: rgba(255, 255, 255, 0.05);
+      font-weight: $font-weight-semibold;
+    }
+    
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+  }
+} 

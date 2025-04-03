@@ -1,0 +1,1955 @@
+@import '@/styles/variables.scss';
+
+.container {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto 120px;
+  color: var(--text-color);
+}
+
+// 引用样式
+.quoteContainer {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.quote {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--accent-color);
+  margin: 0;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: italic;
+  
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+// GoatxOrderX 引用样式
+.goatQuote {
+  background-color: rgba(21, 21, 26, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  
+  &::before {
+    content: '"';
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-size: 6rem;
+    color: rgba(0, 163, 255, 0.1);
+    font-family: Georgia, serif;
+  }
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.goatQuoteCarousel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    .goatQuote {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+// 文本卡片样式
+.textCard {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  position: relative;
+  
+  p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    @media (max-width: 768px) {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+// 阶段概述样式
+.phaseOverviewSection {
+  margin: 60px 0;
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+// 表格样式
+.phaseTable, .goatTable, .synergyTable, .checkpointTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  
+  .tableHeader, .goatTableHeader, .synergyTableHeader, .checkpointHeader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(var(--primary-rgb), 0.9);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    
+    div {
+      padding: 10px;
+    }
+  }
+  
+  .tableRow, .goatTableRow, .synergyTableRow, .checkpointRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(30, 33, 40, 0.6);
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: rgba(40, 44, 52, 0.8);
+    }
+    
+    div {
+      padding: 15px 10px;
+    }
+    
+    &:nth-child(odd) {
+      background-color: rgba(35, 38, 45, 0.6);
+    }
+  }
+}
+
+// GoatxOrderX 特殊表格样式
+.goatTable {
+  .goatTableHeader {
+    background: linear-gradient(135deg, rgba(var(--primary-rgb), 0.9), rgba(var(--secondary-rgb), 0.8));
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  
+  .goatTableRow {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+
+.synergyTable {
+  .synergyTableHeader {
+    background: linear-gradient(135deg, rgba(var(--primary-rgb), 0.8), rgba(var(--accent-rgb), 0.7));
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+  
+  .synergyTableRow {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+}
+
+.checkpointTable {
+  .checkpointHeader {
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  
+  .checkpointRow {
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+}
+
+// 修改原则卡片为三列并排布局
+.principlesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.principleCard {
+  background: linear-gradient(135deg, rgba(40, 44, 52, 0.8), rgba(30, 33, 40, 0.9));
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    margin: 0;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+// 卡片样式
+.mechanicsGrid, .kpiGrid, .scenarioCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.mechanicCard, .kpiCard, .scenarioCard {
+  background: linear-gradient(135deg, rgba(40, 44, 52, 0.8), rgba(30, 33, 40, 0.9));
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3, h4 {
+    margin-top: 0;
+    color: var(--accent-color);
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+    
+    li {
+      margin-bottom: 10px;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// GoatxOrderX 特殊卡片样式
+.mechanicCard {
+  background: linear-gradient(135deg, rgba(35, 39, 47, 0.9), rgba(45, 49, 57, 0.8));
+  border-left: 4px solid var(--primary-color);
+}
+
+.hookCard {
+  background-color: rgba(40, 44, 52, 0.7);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  
+  p {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+}
+
+.metricsCard, .metricsOverviewCard {
+  background: linear-gradient(135deg, rgba(var(--secondary-rgb), 0.2), rgba(var(--secondary-rgb), 0.1));
+  padding: 25px;
+  border-radius: 10px;
+  margin: 30px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+// 分页和导航按钮样式
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.paginationDots {
+  display: flex;
+  margin: 0 20px;
+}
+
+.paginationDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 8px;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.activeDot {
+  background-color: var(--primary-color);
+}
+
+.paginationButton {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  
+  &:hover:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  svg {
+    margin: 0 8px;
+  }
+}
+
+.navigationButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.continueButtonContainer {
+  position: relative;
+}
+
+.continueButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .continueIcon {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+}
+
+// 特定部分样式
+.launchPhilosophySection, 
+.phaseDetailSection, 
+.goatIntegrationSection,
+.coreIdeaSection,
+.integrationStructureSection,
+.narrativeHooksSection,
+.communityMechanicsSection,
+.synergySection,
+.milestonesSection,
+.adjustmentProtocolSection,
+.successScenarioSection {
+  margin: 60px 0;
+}
+
+.jordanNike {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin: 2rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+.hooksContainer {
+  margin: 25px 0;
+}
+
+.goatTransformation {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  border-top: 1px solid rgba(0, 163, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 255, 157, 0.3);
+  
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding: 1.25rem;
+  }
+}
+
+.finalNote {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 30px 0;
+  padding: 20px;
+  border-left: 4px solid var(--accent-color);
+  background-color: rgba(var(--accent-rgb), 0.1);
+}
+
+// 响应式布局
+@media (max-width: 768px) {
+  .phaseTable, .goatTable, .synergyTable, .checkpointTable {
+    .tableHeader, .goatTableHeader, .synergyTableHeader, .checkpointHeader,
+    .tableRow, .goatTableRow, .synergyTableRow, .checkpointRow {
+      grid-template-columns: 1fr;
+    }
+    
+    .tableHeader, .goatTableHeader, .synergyTableHeader, .checkpointHeader {
+      display: none;
+    }
+    
+    .tableRow, .goatTableRow, .synergyTableRow, .checkpointRow {
+      padding: 15px;
+      
+      div {
+        padding: 8px 0;
+        
+        &:before {
+          content: attr(data-label);
+          font-weight: bold;
+          display: block;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  
+  .principlesGrid, .mechanicsGrid, .kpiGrid, .scenarioCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// 表格容器样式优化
+.tableContainer {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  overflow-x: auto;
+  background-color: rgba(21, 21, 26, 0.7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+  
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: rgba(var(--primary-rgb), 0.5);
+    border-radius: 4px;
+    
+    &:hover {
+      background: rgba(var(--primary-rgb), 0.7);
+    }
+  }
+}
+
+.kpiTrackingSection, .riskMitigationSection {
+  margin: 3rem 0;
+  
+  h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      width: 40%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary-color), transparent);
+      border-radius: 1.5px;
+    }
+  }
+  
+  .kpiTable, .riskTable {
+    margin-top: 1.5rem;
+  }
+}
+
+// 集成表格
+.integrationTable {
+  min-width: 700px;
+}
+
+// 收益表格
+.revenueTable {
+  min-width: 700px;
+}
+
+// 放大表格
+.amplificationTable {
+  min-width: 700px;
+}
+
+// 指标部分
+.metricsSection {
+  h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+// 时间线部分
+.timelineSection {
+  margin-bottom: 3rem;
+  
+  h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #00A3FF, #00FF9D);
+      margin: 0.8rem auto 0;
+      border-radius: 3px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1.2rem;
+    }
+  }
+}
+
+.timelineVisualization {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.timelinePlaceholder {
+  background-color: rgba(0, 163, 255, 0.1);
+  border: 1px dashed rgba(0, 163, 255, 0.5);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+// 详细指标部分
+.detailedMetricsSection {
+  margin-bottom: 3rem;
+  
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.metricsCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// 优化指标卡片样式
+.metricCard {
+  background-color: rgba(21, 21, 26, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    background-color: rgba(25, 25, 30, 0.8);
+    
+    &::before {
+      opacity: 1;
+    }
+    
+    h4 {
+      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    
+    li {
+      margin-bottom: 0.75rem;
+      transition: transform 0.2s ease;
+      
+      &:hover {
+        transform: translateX(5px);
+      }
+      
+      strong {
+        color: var(--accent-color);
+        font-weight: 600;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    padding: 1.2rem;
+  }
+}
+
+// 周度里程碑部分
+.weeklyMilestonesSection {
+  margin-bottom: 3rem;
+  
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+// 优化里程碑卡片样式
+.milestoneCard {
+  background-color: rgba(21, 21, 26, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(var(--primary-rgb), 0.1), transparent 70%);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    
+    &::before {
+      opacity: 0.8;
+    }
+    
+    h4 {
+      color: var(--primary-color);
+    }
+  }
+  
+  h4 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+  }
+  
+  .milestoneContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .milestoneActivities {
+    h5 {
+      font-size: 1.1rem;
+      margin-top: 0;
+      margin-bottom: 0.8rem;
+      color: rgba(255, 255, 255, 0.9);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: var(--accent-color);
+      }
+    }
+    
+    ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+      
+      li {
+        margin-bottom: 0.5rem;
+        position: relative;
+        transition: transform 0.2s ease;
+        
+        &:hover {
+          transform: translateX(5px);
+        }
+        
+        &::before {
+          content: '•';
+          color: var(--primary-color);
+          position: absolute;
+          left: -1rem;
+          opacity: 0;
+          transition: opacity 0.2s ease, left 0.2s ease;
+        }
+        
+        &:hover::before {
+          opacity: 1;
+          left: -0.8rem;
+        }
+      }
+    }
+  }
+}
+
+.milestoneContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.milestoneActivities {
+  h5 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #00A3FF;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+    
+    li {
+      margin-bottom: 0.8rem;
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.9);
+      position: relative;
+      
+      &::before {
+        content: '→';
+        position: absolute;
+        left: -1.2rem;
+        color: rgba(0, 163, 255, 0.7);
+      }
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// KPI跟踪部分
+.kpiTable, .riskTable {
+  width: 100%;
+  overflow-x: auto;
+  
+  table {
+    min-width: 800px;
+    
+    th {
+      white-space: nowrap;
+      
+      &:first-child {
+        width: 25%;
+      }
+    }
+    
+    td {
+      &:nth-child(3) {
+        color: rgba(0, 255, 157, 0.9);
+      }
+      
+      &:nth-child(4) {
+        color: rgba(255, 150, 0, 0.9);
+      }
+    }
+  }
+}
+
+// 优化引用网格布局
+.quotesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+  
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// 模块列表
+.moduleList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.moduleItem {
+  background-color: rgba(18, 18, 18, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.2rem;
+  
+  h5 {
+    margin-bottom: 0.8rem;
+    color: var(--color-accent);
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+    
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// 领导层引用
+.leadershipMessageSection {
+  margin: 2rem 0;
+  
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.leadershipQuote {
+  background-color: rgba(21, 21, 26, 0.7);
+  border-left: 4px solid #00A3FF;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  
+  &::before {
+    content: '"';
+    position: absolute;
+    top: 1rem;
+    left: 0.6rem;
+    font-size: 2rem;
+    color: rgba(0, 163, 255, 0.5);
+    font-family: Georgia, serif;
+  }
+}
+
+// 社区机制卡片
+.mechanicCard {
+  background-color: rgba(18, 18, 18, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  h4 {
+    margin-bottom: 1rem;
+    color: var(--color-accent);
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+// 移动端响应式调整
+@media (max-width: 768px) {
+  .tableContainer {
+    margin: 1rem 0;
+    
+    table {
+      th, td {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
+  .quotesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .moduleList {
+    grid-template-columns: 1fr;
+  }
+  
+  .metricsCards {
+    grid-template-columns: 1fr;
+  }
+  
+  .milestoneContent {
+    grid-template-columns: 1fr;
+  }
+  
+  .leadershipQuote {
+    font-size: 1rem;
+  }
+}
+
+// 麦肯锡风格时间线
+.mcKinseyTimeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: rgba(21, 21, 26, 0.7);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin-bottom: 3rem;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #00A3FF, #00FF9D, #FFFFFF);
+  }
+  
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+
+.timelinePhase {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+  position: relative;
+  
+  @media (min-width: 768px) {
+    width: calc(33.33% - 1rem);
+    padding: 1.5rem 0.5rem;
+  }
+}
+
+.phaseIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #000;
+  margin-bottom: 1rem;
+  
+  span {
+    letter-spacing: 0.5px;
+  }
+}
+
+.phaseFoundation {
+  background: linear-gradient(135deg, #00A3FF, #0081CC);
+}
+
+.phaseAcceleration {
+  background: linear-gradient(135deg, #00CCFF, #00A3FF);
+}
+
+.phaseTranscendence {
+  background: linear-gradient(135deg, #00FF9D, #00CC7A);
+}
+
+.phaseContent {
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+  }
+  
+  .phaseDuration {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+  }
+}
+
+.timelineConnector {
+  display: none;
+  width: 60px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 45px;
+  position: relative;
+  
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: -2px;
+  }
+  
+  &::before {
+    left: -3px;
+  }
+  
+  &::after {
+    right: -3px;
+  }
+  
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.milestoneMarkers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.milestone {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  
+  .milestonePoint {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #00A3FF;
+    box-shadow: 0 0 0 2px rgba(0, 163, 255, 0.2);
+  }
+  
+  span {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.keyMetrics {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.metricBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.8rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  min-width: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  
+  span {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 0.2rem;
+    background: linear-gradient(90deg, #00A3FF, #00FF9D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  small {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+// 优化GOAT整合部分标题
+.goatIntegrationSection {
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    padding-bottom: 1rem;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background: linear-gradient(90deg, #00A3FF, #00FF9D);
+      border-radius: 3px;
+    }
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 3rem 0 1.5rem;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(90deg, #00A3FF, #00FF9D);
+      border-radius: 3px;
+    }
+  }
+}
+
+// 优化核心理念部分
+.coreIdeaSection {
+  background-color: rgba(21, 21, 26, 0.7);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at top right, rgba(0, 163, 255, 0.1), transparent 70%);
+    border-top-right-radius: 8px;
+  }
+  
+  h3 {
+    margin-bottom: 1.2rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+    &::after {
+      display: none;
+    }
+  }
+  
+  p {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// 优化GOAT转化描述
+.goatTransformation {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  border-top: 1px solid rgba(0, 163, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 255, 157, 0.3);
+  
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding: 1.25rem;
+  }
+}
+
+// 动效和交互性增强
+.metricCard {
+  background-color: rgba(21, 21, 26, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    background-color: rgba(25, 25, 30, 0.8);
+    
+    &::before {
+      opacity: 1;
+    }
+    
+    h4 {
+      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    
+    li {
+      margin-bottom: 0.75rem;
+      transition: transform 0.2s ease;
+      
+      &:hover {
+        transform: translateX(5px);
+      }
+      
+      strong {
+        color: var(--accent-color);
+        font-weight: 600;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    padding: 1.2rem;
+  }
+}
+
+.milestoneCard {
+  background-color: rgba(21, 21, 26, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(var(--primary-rgb), 0.1), transparent 70%);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    
+    &::before {
+      opacity: 0.8;
+    }
+    
+    h4 {
+      color: var(--primary-color);
+    }
+  }
+  
+  h4 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+  }
+  
+  .milestoneContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .milestoneActivities {
+    h5 {
+      font-size: 1.1rem;
+      margin-top: 0;
+      margin-bottom: 0.8rem;
+      color: rgba(255, 255, 255, 0.9);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: var(--accent-color);
+      }
+    }
+    
+    ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+      
+      li {
+        margin-bottom: 0.5rem;
+        position: relative;
+        transition: transform 0.2s ease;
+        
+        &:hover {
+          transform: translateX(5px);
+        }
+        
+        &::before {
+          content: '•';
+          color: var(--primary-color);
+          position: absolute;
+          left: -1rem;
+          opacity: 0;
+          transition: opacity 0.2s ease, left 0.2s ease;
+        }
+        
+        &:hover::before {
+          opacity: 1;
+          left: -0.8rem;
+        }
+      }
+    }
+  }
+}
+
+// 表格动画和交互增强
+.tableContainer {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  overflow-x: auto;
+  background-color: rgba(21, 21, 26, 0.7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: rgba(var(--primary-rgb), 0.5);
+    border-radius: 4px;
+    
+    &:hover {
+      background: rgba(var(--primary-rgb), 0.7);
+    }
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    
+    th {
+      font-weight: 600;
+      color: var(--accent-color);
+      background-color: rgba(0, 0, 0, 0.2);
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--primary-color);
+        transition: width 0.3s ease;
+      }
+      
+      &:hover::after {
+        width: 100%;
+      }
+    }
+    
+    tr {
+      transition: background-color 0.2s ease;
+      
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.04);
+      }
+    }
+    
+    tbody tr {
+      cursor: pointer;
+      
+      &:last-child td {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.kpiTable, .riskTable {
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    
+    th, td {
+      padding: 1.2rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      vertical-align: top;
+      
+      @media (max-width: 768px) {
+        padding: 0.8rem 0.5rem;
+        font-size: 0.85rem;
+      }
+      
+      @media (max-width: 480px) {
+        padding: 0.6rem 0.4rem;
+        font-size: 0.75rem;
+      }
+    }
+    
+    th {
+      padding-bottom: 1.5rem;
+      font-weight: 600;
+      color: var(--accent-color);
+      background-color: rgba(0, 0, 0, 0.2);
+      position: relative;
+      white-space: nowrap;
+      
+      @media (max-width: 768px) {
+        padding-bottom: 1rem;
+        white-space: normal;
+        font-size: 0.85rem;
+      }
+      
+      @media (max-width: 480px) {
+        font-size: 0.75rem;
+      }
+      
+      &:first-child {
+        border-top-left-radius: 8px;
+      }
+      
+      &:last-child {
+        border-top-right-radius: 8px;
+      }
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--primary-color);
+        transition: width 0.3s ease;
+      }
+      
+      &:hover::after {
+        width: 100%;
+      }
+    }
+    
+    tr {
+      transition: background-color 0.2s ease;
+      
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.04);
+      }
+      
+      &:last-child td {
+        border-bottom: none;
+      }
+      
+      &:last-child td:first-child {
+        border-bottom-left-radius: 8px;
+      }
+      
+      &:last-child td:last-child {
+        border-bottom-right-radius: 8px;
+      }
+    }
+    
+    tbody tr {
+      cursor: pointer;
+    }
+  }
+  
+  // 增加特定颜色处理
+  table tr td:nth-child(3) {
+    color: var(--success-color, #4CAF50);
+  }
+  
+  table tr td:nth-child(4) {
+    color: var(--warning-color, #FFC107);
+  }
+}
+
+.riskTable {
+  table tr td:nth-child(3) {
+    color: var(--success-color, #4CAF50);
+  }
+}
+
+// 移动端表格内容压缩
+@media (max-width: 480px) {
+  .kpiTable, .riskTable {
+    table {
+      th:first-child, td:first-child {
+        max-width: 70px;
+      }
+      
+      th:not(:first-child), td:not(:first-child) {
+        max-width: 80px;
+      }
+    }
+  }
+  
+  .kpiTrackingSection, .riskMitigationSection {
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+// 确保表格容器在移动端可以水平滚动
+.tableContainer {
+  @media (max-width: 768px) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.3rem 0;
+    
+    &::after {
+      content: '←→';
+      position: absolute;
+      bottom: -15px;
+      right: 10px;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.5);
+      opacity: 0.8;
+    }
+    
+    table {
+      min-width: 480px;
+    }
+  }
+}
+
+// 移动端整体内容优化
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+    margin-bottom: 80px;
+  }
+  
+  .metricsCards {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .milestoneContent {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .metricCard, .milestoneCard {
+    padding: 1rem;
+    
+    h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0.8rem;
+    }
+    
+    ul {
+      margin-bottom: 0;
+      
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  
+  .verticalQuotes {
+    .goatQuote {
+      padding: 1.2rem;
+      font-size: 0.95rem;
+    }
+  }
+  
+  .paginationContainer {
+    margin: 1.5rem 0;
+  }
+}
+
+// 增加特定颜色处理
+.kpiTable, .riskTable {
+  table {
+    tr {
+      td:first-child {
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.9);
+      }
+      
+      td:nth-child(3) {
+        color: var(--success-color, #4CAF50);
+      }
+      
+      td:nth-child(4) {
+        color: var(--warning-color, #FFC107);
+      }
+    }
+  }
+}
+
+// 时间线动态效果增强
+.mcKinseyTimeline {
+  .timelinePhase {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      
+      .phaseIndicator {
+        transform: scale(1.05);
+      }
+      
+      .phaseContent {
+        h4 {
+          transform: translateY(-2px);
+        }
+      }
+      
+      .keyMetrics {
+        .metricBadge {
+          transform: scale(1.05);
+        }
+      }
+    }
+    
+    .phaseIndicator {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .phaseContent {
+      h4 {
+        transition: transform 0.3s ease;
+      }
+    }
+    
+    .milestone {
+      transition: transform 0.2s ease;
+      
+      &:hover {
+        transform: translateX(5px);
+        
+        .milestonePoint {
+          background-color: var(--accent-color);
+        }
+      }
+      
+      .milestonePoint {
+        transition: background-color 0.2s ease;
+      }
+    }
+    
+    .keyMetrics {
+      .metricBadge {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
+// 按钮动效增强
+.continueButton, .paginationButton {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 255, 0), 
+      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, 0)
+    );
+    transition: left 0.7s ease;
+  }
+  
+  &:hover::before {
+    left: 100%;
+  }
+}
+
+// 修改周卡片布局为两列
+.weeklyCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.weekCard {
+  background: linear-gradient(135deg, rgba(40, 44, 52, 0.8), rgba(30, 33, 40, 0.9));
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    
+    @media (max-width: 480px) {
+      font-size: 1.1rem;
+    }
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+    
+    li {
+      margin-bottom: 10px;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// 纵向引用卡片样式
+.verticalQuotes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 2rem 0;
+  
+  .goatQuote {
+    width: 100%;
+    
+    &:nth-child(odd) {
+      align-self: flex-start;
+    }
+    
+    &:nth-child(even) {
+      align-self: flex-end;
+    }
+  }
+}
+
+// 优化移动端时间线显示
+@media (max-width: 768px) {
+  .timelineVisualization {
+    overflow-x: auto;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    
+    .mcKinseyTimeline {
+      min-width: 650px;
+      padding: 10px;
+    }
+  }
+  
+  .timelinePhase {
+    .phaseContent {
+      h4 {
+        font-size: 1.1rem;
+      }
+      
+      .phaseDuration {
+        font-size: 0.9rem;
+      }
+      
+      .milestone {
+        span {
+          font-size: 0.85rem;
+        }
+      }
+      
+      .keyMetrics {
+        .metricBadge {
+          padding: 0.5rem;
+          
+          span {
+            font-size: 1rem;
+          }
+          
+          small {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+} 

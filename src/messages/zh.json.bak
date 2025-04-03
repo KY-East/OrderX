@@ -1,0 +1,1393 @@
+{
+  "auth": {
+    "passwordPrompt": "请输入密码",
+    "submit": "确认",
+    "incorrect": "密码错误，请重试",
+    "placeholder": "输入密码"
+  },
+  "nav": {
+    "overview": "项目概述",
+    "background": "背景与挑战",
+    "architecture": "核心架构",
+    "userJourney": "用户旅程",
+    "technical": "技术实现",
+    "expansion": "扩展与未来",
+    "launch": "启动计划"
+  },
+  "home": {
+    "title": "Order X 协议",
+    "subtitle": "重新定义移动出行的参与方式",
+    "quote": "我们不仅仅是推出一款汽车，而是启动一场集体进化",
+    "startExploring": "开始探索"
+  },
+  "overview": {
+    "title": "Order X 协议",
+    "subtitle": "重塑移动出行的参与之道",
+    "quote": "我们不是在发布一辆车，我们在启动一场集体进化。",
+    "philosophy": "Order X 理念",
+    "philosophyText1": "Order X 不是营销活动，它是产品发布参与模式的范式转变。",
+    "philosophyText2": "在社区力量决定产品命运的时代，我们设计了一个将真实参与转化为切实权益的系统。它利用区块链技术提供透明度，同时拒绝投机，专注于记录、认可和奖励真实的社区行为。",
+    "philosophyQuote": "参与是你的通行证，行动是你的资格。",
+    "defining": "定义 Order X",
+    "whatIs": "什么是 Order X？",
+    "whatIsText": "Order X 是一个由社区驱动的协议，旨在革新车辆预订流程。以法拉第未来的 FX 车型为核心，它采用透明的区块链技术——不是为了投机，而是为了奖励真实的社区参与。",
+    "isNot": "Order X 不是：",
+    "isNotList": [
+      "代币发行项目",
+      "投机平台",
+      "传统营销活动"
+    ],
+    "is": "Order X 是：",
+    "isList": [
+      "行为记录与价值验证系统",
+      "从社区参与到产品订购的透明渠道",
+      "重新定义品牌与用户关系的协议"
+    ],
+    "innovation": "创新亮点",
+    "innovationList": [
+      "透明记录：每一次社区行动都被公开记录，形成用户的\u201C参与轨迹\u201D",
+      "资质机制：参与度决定订购资格，创造自然稀缺性",
+      "数据可视化：通过参与热图实时展示全球社区活动",
+      "分级特权：不同参与级别解锁不同产品权益",
+      "未来扩展性：为未来社区经济系统奠定基础"
+    ],
+    "whyNow": "为何选择 Order X，为何是现在？",
+    "whyText1": "面对产品和市场的双重挑战，传统发布模式已不再足够：",
+    "whyList": [
+      "消费者信任碎片化",
+      "传统广告效率下降",
+      "社区影响力日益增长",
+      "对参与透明度的需求增加"
+    ],
+    "whyText2": "Order X 不仅是产品发布系统，更是品牌与社区关系的重构。",
+    "whyQuote": "透明构建信任，参与铸就特权。",
+    "interactive": "互动问题",
+    "interactiveQuestion": "您对传统车辆预购模式有何看法？",
+    "interactiveOptions": [
+      "它们运作良好，无需改变",
+      "它们效率低下，但没有更好的替代方案",
+      "它们没有充分利用社区力量",
+      "它们应该被彻底重新设计",
+      "其他观点"
+    ],
+    "interactivePrompt": "选择一个选项，了解 Order X 如何应对这些挑战",
+    "responses": [
+      "在这些情况下，Order X 通过改变预购流程的经济激励来解决问题。传统模式下，车企收取大量预付款但提供很少回报，而 Order X 为预订者提供了代币化权益和明确的奖励机制，使其成为一种投资而非仅是等待。",
+      "Order X 理解您的观点，但我们相信还有巨大的改进空间。通过引入区块链技术和代币化预订机制，我们提供了更透明、更公平的系统，同时保留了一些传统模式的基础元素，但赋予其更多价值和更好的用户体验。",
+      "这正是 Order X 的存在意义！我们彻底重新设计了预订模式，使用区块链技术创建了一个完全透明的生态系统。通过代币化预订权益，我们为持有者提供了真正的价值、经济激励和社区参与，同时解决了传统模式的核心问题。",
+      "这是一个有洞察力的观点。Order X 的目标是解决行业格局变化带来的挑战，我们看到了向互联网3.0和电商领域演进的需求。Order X 集成了社区驱动、透明机制和经济激励，创建了一个全新的预订生态系统，远超简单的'修补'。",
+      "感谢您分享独特的观点。Order X 的设计理念是灵活且包容的，我们期待听取更多社区反馈，不断改进和发展我们的协议。您的视角可能会帮助我们发现未曾考虑的机会。"
+    ],
+    "continueReading": "继续阅读",
+    "previousPage": "上一页",
+    "copyright": "© 2025 法拉第未来 | Order X 协议 v1.0",
+    "navButtons": {
+      "next": "继续",
+      "previous": "返回"
+    },
+    "page": "页",
+    "of": "/",
+    "nextPage": "背景与挑战"
+  },
+  "background": {
+    "title": "项目背景与挑战",
+    "subtitle": "为什么我们需要 Order X",
+    "industryLandscape": "行业现状",
+    "industryIntro": "汽车行业正经历着范式转变。在这种转变中，传统营销渠道和销售模式面临前所未有的挑战：",
+    "decliningMarketing": "传统营销效力下降",
+    "fragmentationTrust": "消费者信任碎片化",
+    "riseCommunity": "社区力量崛起",
+    "decliningMarketingPoints": [
+      "数字广告覆盖率在增加，但转化率却持续下降",
+      "消费者对传统广告内容的信任度已达历史最低点",
+      "每条潜在客户获取成本同比上升超过45%",
+      "产品发布活动难以维持持续关注，\"热度半衰期\"缩短至72小时"
+    ],
+    "decliningMarketingQuote": "在信息过载的时代，注意力不再能被购买—只能被赢得。",
+    "fragmentationPoints": [
+      "在汽车购买决策过程中，超过78%的消费者更信任用户评价而非官方宣传",
+      "汽车品牌的平均信任度评分下降了23%",
+      "社交媒体和论坛在汽车购买决策中的影响力同比增长超过60%",
+      "传统经销商模式被认为是\"过时且不透明的\"(消费者研究数据)"
+    ],
+    "communityPoints": [
+      "Reddit和Twitter等平台已成为产品声誉的关键战场",
+      "GameStop等案例展示了社区驱动的市场现象的力量",
+      "品牌\"信仰者\"对产品扩散的影响力超过传统意见领袖",
+      "用户生成内容(UGC)的传播速度是品牌内容的4.5倍"
+    ],
+    "challengesFF": "法拉第未来的特殊挑战",
+    "ffIntro": "在这一背景下，法拉第未来面临着独特的挑战：",
+    "ambitiousGoals": "雄心勃勃的目标",
+    "marketPosition": "独特的市场定位",
+    "ambitiousGoalsPoints": [
+      "FX模型旨在突破10万订单里程碑",
+      "建立与特斯拉早期社区效应相当的品牌忠诚度",
+      "在竞争激烈的电动汽车市场中脱颖而出",
+      "重获投资者和市场信心"
+    ],
+    "marketPositionPoints": [
+      "社区与品牌的情感连接高度波动",
+      "传统营销方法对电动汽车创新者的回报日益减少",
+      "需要将技术创新转化为消费者需求",
+      "将在线热情转化为实际车辆订单"
+    ],
+    "creatorsQuote": "我们不只需要顾客。我们需要共同创造者。",
+    "opportunity": "Order X 的机遇",
+    "opportunityIntro": "这些挑战为一个系统创造了独特的机会，它：",
+    "authenticEngagement": "培养真实参与",
+    "conversionPathways": "释放新的转化路径",
+    "dataDecision": "实现数据驱动决策",
+    "authenticEngagementPoints": [
+      "奖励真实参与而非被动消费",
+      "创造自我强化的参与和奖励循环",
+      "建立品牌与社区之间的透明关系",
+      "通过可验证的行动建立信任基础"
+    ],
+    "conversionPathwaysPoints": [
+      "将在线参与转化为实体订购特权",
+      "通过基于功绩的访问创造自然稀缺性",
+      "通过独特的参与机制驱动口碑传播",
+      "建立从社区成员到车辆所有者的清晰路径"
+    ],
+    "dataDecisionPoints": [
+      "提供关于社区情绪和行为的实时洞察",
+      "为产品团队创建可见的反馈循环",
+      "精确识别真正的品牌倡导者",
+      "测量跨多平台的参与强度"
+    ],
+    "solution": "Order X 解决方案",
+    "solutionIntro1": "为应对这些挑战，Order X创造了车辆订购方式的革命，不是通过重新发明轮子，而是通过重新发明通向它的道路。",
+    "solutionIntro2": "Order X建立在三个基本原则之上：",
+    "transparency": "通过技术实现透明",
+    "participation": "参与即货币",
+    "meritAccess": "基于贡献的访问权限",
+    "transparencyDesc": "使用区块链创建不可变的参与记录，不是为了投机，而是为了建立信任。",
+    "participationDesc": "用直接奖励社区参与取代传统营销支出。",
+    "meritAccessDesc": "创建一个系统，使订购特权通过真正的参与而非仅仅购买力来获得。",
+    "mobilityQuote": "移动出行的未来不仅仅关乎我们如何移动。它是关于我们如何一起移动。",
+    "mainQuote": "旧秩序正在崩塌。参与正成为新的货币。",
+    "interactiveQuestion": "哪个挑战与你的经验最为贴近？",
+    "interactiveOptions": [
+      "传统营销效力下降",
+      "消费者信任碎片化",
+      "需要真实社区参与",
+      "将在线热情转化为销售",
+      "在竞争激烈的市场中建立品牌忠诚度"
+    ],
+    "interactivePrompt": "选择一个选项，了解Order X如何专门应对这些挑战",
+    "responses": [
+      "Order X通过创建全新的参与模式来针对传统营销回报率下降的问题。我们不是向客户广播信息，而是启用直接的社区到产品连接。营销预算被重新分配用于奖励真实参与，这一策略同时构建产品可见度和社区忠诚度。",
+      "Order X系统通过提供完全透明度直接解决信任碎片化问题。当社区行动被记录在链上时，品牌与用户之间的关系从不透明转变为透明。我们的行为验证系统提供参与的客观证明，通过可见性而非承诺创造信任。",
+      "Order X专为培养真实社区参与而设计。通过记录、认可和奖励社区行为，我们创造了全新的参与经济模式。参与者不仅是客户，他们是共同创造者，其行动直接塑造产品发布过程并获得相应奖励。",
+      "Order X通过创建从在线热情到实际预订的清晰路径来解决这一关键挑战。我们的系统将在线参与转化为实际订购特权，将社交媒体上的积极态度转变为量化的贡献指标，最终转化为订购权利。",
+      "在竞争激烈的电动汽车市场中，Order X为法拉第未来提供独特品牌差异化。通过创建基于参与的精英社区，我们不仅培养忠诚度，还建立了自维持的品牌倡导者网络，为长期成功奠定基础。"
+    ],
+    "continueReading": "继续阅读",
+    "previousPage": "上一页",
+    "copyright": "© 2025 法拉第未来 | Order X 协议 v1.0",
+    "nextPage": "核心架构与模块"
+  },
+  "architecture": {
+    "title": "核心架构与模块",
+    "subtitle": "Order X 的构建模块",
+    "mainQuote": "架构不只是被建造的。它们是被培育的。",
+    "systemOverview": "系统概览",
+    "systemDescription": "Order X 被设计为一个模块化、可扩展的系统，包含六个相互连接的组件，这些组件协同工作，创造从社区参与到车辆订购特权的无缝流程。",
+    "priorities": "此架构优先考虑：",
+    "transparency": "透明度",
+    "transparencyDesc": "所有数据流都是可见且可验证的",
+    "scalability": "可扩展性",
+    "scalabilityDesc": "系统可以从数千扩展到数百万用户",
+    "flexibility": "灵活性",
+    "flexibilityDesc": "适应不断变化的市场和社区需求",
+    "security": "安全性",
+    "securityDesc": "保护用户数据和系统完整性",
+    "interoperability": "互操作性",
+    "interoperabilityDesc": "与现有系统和未来扩展无缝集成",
+    "sixCoreModules": "六个核心模块：",
+    "orderTracker": "订单追踪器",
+    "orderTrackerDesc": "记录和验证社区参与行为的核心引擎",
+    "signalBuilder": "信号构建器",
+    "signalBuilderDesc": "将验证的行为转化为定量信号点值",
+    "orderGate": "订单门户",
+    "orderGateDesc": "信号和特权之间的界面",
+    "rewardLayer": "奖励层",
+    "rewardLayerDesc": "管理和分配激励的系统",
+    "radarBoard": "雷达面板",
+    "radarBoardDesc": "实时社区活动可视化工具",
+    "futureLayer": "未来层",
+    "futureLayerDesc": "用于未来扩展的接口和工具集",
+    "keyFunctions": "关键功能：",
+    "orderTrackerFunctions": [
+      "多平台行为收集 (Twitter、Reddit、Discord)",
+      "基于AI的参与质量验证",
+      "用户身份管理和防欺诈系统",
+      "社区参与历史的安全存储",
+      "数据隐私与合规性框架"
+    ],
+    "technicalComponents": "技术组件：",
+    "orderTrackerTech": [
+      "API与主要社交平台集成",
+      "身份验证即服务 (AaaS) 层",
+      "数据验证队列系统",
+      "分布式身份基础设施",
+      "加密数据存储"
+    ],
+    "implementationFocus": "实施重点：",
+    "orderTrackerImpl": [
+      "用户隐私优先",
+      "最小数据收集原则",
+      "高吞吐量系统架构",
+      "法规合规性 (GDPR, CCPA)",
+      "跨设备用户身份保持"
+    ],
+    "signalValueExamples": "信号值示例：",
+    "signalExamples": [
+      "高质量社区帖子：+3-5点",
+      "有意义的评论：+1-2点",
+      "内容分享：+0.5-1点",
+      "活动参与：+2-8点",
+      "实体事件签到：+5-10点",
+      "社区挑战完成：+3-15点"
+    ],
+    "algorithmPrinciples": "算法原则：",
+    "signalAlgorithm": [
+      "质量大于数量",
+      "参与持久性权重",
+      "社区反馈倍增器",
+      "防止游戏化和滥用",
+      "透明公式和指标"
+    ],
+    "accessTiers": "访问层级：",
+    "accessTiersList": [
+      "浏览者（0-99信号）：基础社区访问",
+      "贡献者（100-499信号）：扩展内容和活动",
+      "影响者（500-999信号）：专属活动和预览",
+      "先锋（1000-1999信号）：早期功能访问和特别活动",
+      "创始者（2000+信号）：产品优先级和独家权益"
+    ],
+    "designPhilosophy": "设计理念：",
+    "gateDesign": [
+      "奖励稀缺性而非支付",
+      "对所有参与者的合理可达性",
+      "明确的进展路径",
+      "对真实贡献者的强大偏好",
+      "对影响者的特殊认可"
+    ],
+    "rewardExamples": "奖励示例：",
+    "rewardList": [
+      "独家内容和社区权限",
+      "数字勋章和成就标识",
+      "实体品牌商品和体验机会",
+      "产品定制和预购特权",
+      "经验值和稀有状态标记"
+    ],
+    "moduleDTitle": "模块 D：奖励层",
+    "moduleDDesc": "奖励层将Order Signal成就与实际利益相连接，创造即时和长期的激励机制。",
+    "rewardLayerFunctions": [
+      "基于信号积累分配奖励",
+      "管理折扣码和特殊配置",
+      "为符合资格的用户安排独家体验",
+      "跟踪奖励兑换和满意度"
+    ],
+    "rewardLayerQuote": "奖励不仅仅是馈赠——它是对那些真正参与者的价值回馈。",
+    "moduleETitle": "模块 E：雷达板",
+    "moduleEDesc": "雷达板可视化社区参与情况，创建一个动态的、公开的Order X活动仪表板。",
+    "radarBoardFunctions": [
+      "显示社区参与的全球热图",
+      "跟踪关键指标和趋势",
+      "展示个人和群体互动数据",
+      "提供实时活动流和通知"
+    ],
+    "visualizationComponents": "可视化组件：",
+    "radarBoardComponents": [
+      "全球参与热图",
+      "实时活动可视化",
+      "个人贡献仪表盘",
+      "社区里程碑追踪",
+      "产品影响流可视化"
+    ],
+    "userExperienceFocus": "用户体验重点：",
+    "radarBoardExperience": "雷达板设计注重于清晰、直观地传达复杂数据，帮助用户理解他们贡献的影响力。",
+    "moduleFTitle": "模块 F：未来层",
+    "moduleFDesc": "未来层提供扩展能力，允许Order X随着社区成长和技术进步而演进。",
+    "potentialExpansions": "潜在扩展：",
+    "futureLayerExpansions": [
+      "跨产品积分系统",
+      "分散式社区治理框架",
+      "基于行为的代币化层",
+      "动态社区和子社区",
+      "生成式AI社区界面"
+    ],
+    "designPrinciples": "设计原则：",
+    "futureLayerPrinciples": "未来层的设计以开放性和适应性为中心，确保系统可以自然地演化以满足新兴需求和机会。",
+    "futureLayerQuote": "我们今天所创建的不仅仅是满足当前需求的系统，更是支持未来十年创新的基础设施。",
+    "integrationFramework": "集成框架",
+    "circularFlow": "这种循环流动确保：",
+    "integrationDesc": "OrderX的系统模块在一个无缝集成的框架中协同工作，实现全方位的用户体验和数据流动。",
+    "orderTracker": "订单追踪器",
+    "signalBuilder": "信号构建器",
+    "orderGate": "订单门户",
+    "radarBoard": "雷达板",
+    "rewardLayer": "奖励层",
+    "futureLayer": "未来层",
+    "flowBenefits": [
+      "用户行为被准确捕获并转化为有价值的信号",
+      "信号积累解锁增强的订单体验和特权",
+      "独特的激励机制促进持续参与",
+      "社区活动和贡献得到公开认可",
+      "系统随社区增长而扩展和适应"
+    ],
+    "exploreModules": "探索模块",
+    "continue": "继续",
+    "previous": "上一页",
+    "nextPage": "用户旅程与体验",
+    "moduleATitle": "模块 A：订单追踪器",
+    "moduleADesc": "订单追踪器是用户旅程的起点，连接用户活动与Order X生态系统。",
+    "orderTrackerImplementation": [
+      "多平台行为收集API",
+      "身份验证与防欺诈系统",
+      "数据处理与存储管道",
+      "隐私保护合规层"
+    ],
+    "orderTrackerQuote": "最佳数据捕获是不被察觉的——像空气一样存在，但在每次互动中都至关重要。",
+    "moduleBTitle": "模块 B：信号构建器",
+    "moduleBDesc": "信号构建器将原始参与数据转化为可量化的"订单信号"，代表用户的参与价值。",
+    "signalBuilderFunctions": [
+      "基于活动和参与度计算信号值",
+      "应用质量乘数和背景因素",
+      "跟踪信号累积和阈值进展",
+      "管理信号随时间的衰减和增强"
+    ],
+    "signalBuilderPrinciples": [
+      "参与度深度与持续性的平衡",
+      "防止游戏化和伪装行为",
+      "认可各种形式的有价值贡献",
+      "提供透明的成长途径"
+    ],
+    "signalBuilderQuote": "每个系统都需要自己的语言。订单信号就是我们将参与转化为特权的方式。",
+    "moduleCTitle": "模块 C：订单门户",
+    "moduleCDesc": "订单门户根据用户的订单信号值解锁不同级别的参与和特权。",
+    "orderGateFunctions": [
+      "验证用户信号积分和资格",
+      "提供分层访问控制系统",
+      "促进特权级别的提升和变更",
+      "管理独家订购机会和特殊配置"
+    ],
+    "orderGatePhilosophy": "订单门户设计在独家性与可达性之间取得平衡，确保参与感始终是核心价值，而不仅仅是消费能力。"
+  },
+  "userjourney": {
+    "title": "用户旅程与体验",
+    "subtitle": "从社区成员到 Order X 先驱",
+    "journeyQuote": "我们不只是建立了一个订购系统。我们创造了一个旅程。",
+    "journeyOverview": "Order X 旅程",
+    "journeyIntro": "Order X 将传统的汽车预订过程转变为一条引人入胜、激励性强的旅程，引导用户从好奇的社区成员发展成为有特权的先驱。每一步都经过精心设计，确保整个过程自然、有意义且令人满足。",
+    "sevenStages": "Order X 旅程的七个阶段：",
+    "stage1": "第 1 阶段：发现与注册",
+    "stage1Desc": "通过社交媒体、口碑或定向内容发现 Order X，并完成初步注册",
+    "stage2": "第 2 阶段：社区融入",
+    "stage2Desc": "加入 Order X 社区并开始与内容、活动和其他成员互动",
+    "stage3": "第 3 阶段：进度可视化",
+    "stage3Desc": "通过个人化仪表板跟踪参与进度、信号积累和社区贡献",
+    "stage4": "第 4 阶段：社区认可",
+    "stage4Desc": "达到认可里程碑，获得社区角色升级和可见性",
+    "stage5": "第 5 阶段：特权解锁",
+    "stage5Desc": "基于积累的信号解锁专属内容、体验和特权",
+    "stage6": "第 6 阶段：订单门户资格",
+    "stage6Desc": "获得进入 Order Gate 的资格，解锁预订特权和独家选项",
+    "stage7": "第 7 阶段：超越订购",
+    "stage7Desc": "在物理产品交付后继续参与社区互动和特权机会",
+    "keyElements": "关键体验元素：",
+    "discoveryExperience": "发现体验：",
+    "primaryChannels": "主要互动渠道：",
+    "channelsList": [
+      "Reddit r/OrderX 和 r/FaradayFuture",
+      "Twitter 和 Discord 社区",
+      "特定国家/地区社交平台（微博、Telegram 等）",
+      "现场品牌体验和弹出式活动",
+      "网站和手机APP体验"
+    ],
+    "engagementDynamics": "互动动态：",
+    "dynamicsList": [
+      "提问与回答参与",
+      "内容创作与分享",
+      "活动参与和贡献",
+      "反馈提供和共创",
+      "任务和挑战完成"
+    ],
+    "dashboardElements": "仪表板核心功能：",
+    "personalDashboard": "个人仪表板元素：",
+    "dashboardList": [
+      "信号得分和历史追踪",
+      "解锁特权和机会可视化",
+      "个人参与热图",
+      "社区成就和徽章",
+      "下一级进度指示器"
+    ],
+    "recognitionMechanisms": "认可机制：",
+    "statusLevel": "状态级别",
+    "requirements": "要求",
+    "recognition": "认可",
+    "statusLevels": [
+      {
+        "level": "浏览者",
+        "requirements": "0-99 信号点",
+        "recognition": "基础社区访问"
+      },
+      {
+        "level": "贡献者",
+        "requirements": "100-499 信号点",
+        "recognition": "贡献者徽章，专门 Discord 角色"
+      },
+      {
+        "level": "影响者",
+        "requirements": "500-999 信号点",
+        "recognition": "影响者徽章，内容推广机会"
+      },
+      {
+        "level": "先锋",
+        "requirements": "1000-1999 信号点",
+        "recognition": "先锋状态，专属活动邀请"
+      },
+      {
+        "level": "创始者",
+        "requirements": "2000+ 信号点",
+        "recognition": "创始者状态，产品影响力"
+      }
+    ],
+    "progressiveAccess": "渐进式访问：",
+    "accessProgression": [
+      "每个级别解锁新的内容和特权层",
+      "专属活动和体验的分层访问",
+      "产品洞察力和影响力的增加深度",
+      "从数字到实体再到产品的特权进展",
+      "从参与到共创的机会升级"
+    ],
+    "qualificationExp": "资格获取体验：",
+    "qualificationElements": [
+      "清晰可视化的资格阈值",
+      "达成时的庆祝通知",
+      "社区公开认可和宣布",
+      "访问窗口时间表",
+      "选择和确认体验"
+    ],
+    "vehicleOrdering": "车辆订购优势：",
+    "orderingBenefits": [
+      "提前访问独家配置选项",
+      "基于参与的折扣和特权",
+      "预留名额保证",
+      "个性化产品路径",
+      "社区庆祝和认可"
+    ],
+    "ongoingEngagement": "持续互动：",
+    "postOrderElements": [
+      "数字共创者身份",
+      "长期社区特权",
+      "未来产品预览机会",
+      "社区活动和聚会",
+      "大使机会"
+    ],
+    "journeyMapping": "旅程映射",
+    "emotionalCurve": "情感曲线",
+    "emotionalJourney": [
+      {
+        "stage": "发现",
+        "emotion": "好奇心",
+        "description": "初次体验时的新奇感和探索欲"
+      },
+      {
+        "stage": "融入",
+        "emotion": "归属感",
+        "description": "建立社区联系的满足感"
+      },
+      {
+        "stage": "追踪",
+        "emotion": "成就感",
+        "description": "看到参与转化为可见进步"
+      },
+      {
+        "stage": "认可",
+        "emotion": "自豪感",
+        "description": "获得社区地位的肯定"
+      },
+      {
+        "stage": "特权",
+        "emotion": "独特感",
+        "description": "体验排他性和特别待遇"
+      },
+      {
+        "stage": "订购",
+        "emotion": "期待感",
+        "description": "迈向产品所有权的激动"
+      },
+      {
+        "stage": "超越",
+        "emotion": "归属感",
+        "description": "成为更广泛社区的一部分"
+      }
+    ],
+    "touchpointDesign": "接触点设计：",
+    "touchpointPrinciples": [
+      "每个接触点都强化参与公平原则",
+      "一致的可访问性和明确性",
+      "跨平台体验协调",
+      "减少摩擦点，强化积极时刻",
+      "情感和实用元素的平衡"
+    ],
+    "frictionElimination": "消除摩擦：",
+    "frictionPoints": [
+      "识别：复杂的注册过程",
+      "解决：简化的登录和一键连接",
+      "识别：难以理解的进展系统",
+      "解决：直观的可视化指标和明确的下一步",
+      "识别：令人困惑的特权获取",
+      "解决：自动通知和清晰的选择流程"
+    ],
+    "personasPathways": "用户角色与路径",
+    "communityBuilder": "社区建设者",
+    "automotiveEnthusiast": "汽车爱好者",
+    "brandLoyalist": "品牌忠实者", 
+    "earlyAdopter": "早期采用者",
+    "primaryMotivation": "主要动机：",
+    "communityMotivation": "社区连接和影响力",
+    "enthusiastMotivation": "先进技术和性能体验",
+    "loyalistMotivation": "与品牌的持续关系",
+    "earlyAdopterMotivation": "成为先行者和创新者",
+    "keyActivities": "关键活动：",
+    "communityActivities": "创建内容、组织活动、引导对话",
+    "enthusiastActivities": "技术分析、性能比较、深入讨论",
+    "loyalistActivities": "品牌宣传、忠诚度表达、历史分享",
+    "earlyAdopterActivities": "早期注册、功能测试、体验分享",
+    "recognitionFocus": "认可重点：",
+    "communityRecognition": "社区影响和连接创造",
+    "enthusiastRecognition": "技术知识和专业贡献",
+    "loyalistRecognition": "持续支持和倡导",
+    "earlyAdopterRecognition": "开创性采用和反馈",
+    "tailoredFeatures": "定制功能：",
+    "communityFeatures": "社区管理工具、影响力衡量",
+    "enthusiastFeatures": "深入技术访问、工程师连接",
+    "loyalistFeatures": "品牌历史、专属回顾内容",
+    "earlyAdopterFeatures": "首发体验、测试机会",
+    "experienceMoments": "标志性体验时刻",
+    "firstSignal": "首次信号仪式",
+    "firstSignalDesc": "第一次信号点获取的特别庆祝，伴随着奖励和解锁内容",
+    "thresholdCelebrations": "阈值庆祝",
+    "thresholdDesc": "达到关键信号阈值时的社区公开认可和特别奖励",
+    "pioneerInduction": "先驱者入职",
+    "pioneerDesc": "正式获得订单资格时的专属体验和特别礼遇",
+    "configurationMoment": "配置时刻",
+    "configurationDesc": "首次访问产品定制工具的专属引导和社区分享机会",
+    "continueJourney": "继续旅程",
+    "continueStages": "继续 Order X 旅程",
+    "nextPage": "技术实现"
+  },
+  "technical": {
+    "title": "技术实现路线图",
+    "subtitle": "构建 Order X 生态系统",
+    "quote1": "表面简洁，核心强大。",
+    "quote2": "技术应该是无形的，直到它变得无价。",
+    "quote3": "AI 不是替代人类连接，而是放大它。",
+    "quote4": "为今天构建，为明天架构。",
+    "architecturePhilosophy": "架构理念",
+    "architectureIntro": "Order X 的技术架构遵循三个核心原则，确保系统既实用又前瞻：",
+    "coreInfrastructure": "核心基础设施",
+    "infrastructureIntro": "Order X 建立在五个主要系统组件之上，它们协同工作创造无缝用户体验：",
+    "pragmaticMinimalism": "务实的极简主义",
+    "pragmaticDesc": "只构建所需的功能，避免过度工程化。我们优先考虑快速部署和实际价值而非理论完美。",
+    "progressiveImplementation": "渐进式实施",
+    "progressiveDesc": "采用阶段性方法，先建立核心功能，再随着用户需求和技术成熟度逐步扩展。",
+    "modularDesign": "模块化设计",
+    "modularDesc": "每个系统组件都设计为独立运行，具有明确定义的接口，允许独立升级和扩展。",
+    "systemComponents": "系统组件",
+    "dataCollectionLayer": "数据收集层",
+    "dataCollectionDesc": "负责从多个来源收集参与数据并验证其真实性。",
+    "dataCollectionDetails": [
+      "API连接到主要社交平台（Twitter、Reddit、Discord）",
+      "用户行为追踪和验证系统",
+      "分布式身份管理框架",
+      "隐私保护数据处理管道",
+      "多端点数据聚合系统"
+    ],
+    "processingAnalytics": "处理与分析引擎",
+    "processingDesc": "将原始参与数据转化为有意义的信号和洞察。",
+    "processingDetails": [
+      "行为分析算法套件",
+      "信号量化和分配引擎",
+      "用户模式识别系统",
+      "实时参与评分",
+      "异常检测与反欺诈措施"
+    ],
+    "blockchainInterface": "区块链接口",
+    "blockchainDesc": "为参与记录和权益分配提供透明、不可变的记录。",
+    "blockchainDetails": [
+      "Solana区块链整合",
+      "轻量级验证机制",
+      "智能合约信号记录",
+      "链外数据与链上记录的混合系统",
+      "多重签名安全保护"
+    ],
+    "userExperienceLayer": "用户体验层",
+    "userExperienceDesc": "确保所有技术的复杂性对终端用户透明且易于交互。",
+    "userExperienceDetails": [
+      "跨平台用户界面系统",
+      "情境性指引和教程",
+      "个性化仪表板",
+      "进度可视化工具",
+      "简化的权益获取流程"
+    ],
+    "administrativeSystem": "管理系统",
+    "administrativeDesc": "提供内部控制、监控和管理Order X平台的工具。",
+    "administrativeDetails": [
+      "系统健康监控",
+      "活动管理控制台",
+      "数据分析仪表板",
+      "内容审核工具",
+      "社区管理界面"
+    ],
+    "aiImplementation": "AI 与代理实现",
+    "aiIntro": "人工智能在Order X生态系统中扮演三个关键角色：",
+    "communityAssistant": "社区 AI 助手",
+    "communityAIDesc": "提供即时支持和个性化指导的智能界面。",
+    "communityAIDetails": [
+      "24/7社区参与支持",
+      "参与策略个性化建议",
+      "问题解决和指南",
+      "资源和内容推荐",
+      "用户旅程协助"
+    ],
+    "signalQuality": "信号质量分析",
+    "signalQualityDesc": "评估参与质量并防止游戏化的AI系统。",
+    "signalQualityDetails": [
+      "参与价值评估",
+      "内容质量分析",
+      "多维行为评分",
+      "智能反欺诈检测",
+      "积极参与标识"
+    ],
+    "predictiveAnalytics": "预测分析",
+    "predictiveDesc": "利用数据预测趋势和优化系统的人工智能。",
+    "predictiveDetails": [
+      "社区增长预测",
+      "参与模式分析",
+      "用户行为预测",
+      "转化机会识别",
+      "系统优化建议"
+    ],
+    "developmentApproach": "开发方法",
+    "developmentIntro": "我们将Order X的开发分为三个渐进式阶段，每个阶段都在前一阶段的基础上构建：",
+    "phase1": "阶段 1：MVP",
+    "phase1Development": "关注核心功能部署，建立基础参与系统。",
+    "phase1List": [
+      "数据收集层基础实现",
+      "Reddit和Twitter集成",
+      "基本参与跟踪",
+      "简化的用户界面",
+      "手动验证支持",
+      "初始分析仪表板"
+    ],
+    "phase2": "阶段 2：增强体验",
+    "phase2Development": "扩展功能并完善用户体验。",
+    "phase2List": [
+      "多平台集成拓展",
+      "自动化验证系统",
+      "区块链接口部署",
+      "社区AI助手测试版",
+      "扩展数据分析",
+      "增强的用户体验",
+      "初步预订系统集成"
+    ],
+    "phase3": "阶段 3：全面部署",
+    "phase3Development": "实现完整系统并准备规模化。",
+    "phase3List": [
+      "完整AI系统部署",
+      "高级防欺诈措施",
+      "综合预测分析",
+      "完整区块链整合",
+      "大规模用户支持",
+      "预订系统完全整合",
+      "跨平台全功能体验"
+    ],
+    "days30": "30 天",
+    "days60": "60 天",
+    "days90": "90 天",
+    "technicalStack": "技术栈：",
+    "phase1Stack": [
+      "前端：React, Next.js, TailwindCSS",
+      "后端：Node.js, Express, MongoDB",
+      "分析：Python, Pandas, basic ML models",
+      "部署：AWS, Docker",
+      "集成：Reddit API, Twitter API"
+    ],
+    "phase2Stack": [
+      "扩展前端：React Native, Motion libraries",
+      "增强后端：GraphQL, Redis caching",
+      "分析：TensorFlow, predictive models",
+      "区块链：Solana devnet integration, smart contracts",
+      "新增集成：Discord, Telegram"
+    ],
+    "phase3Stack": [
+      "高级前端：完整动画, gamification elements",
+      "扩展后端：microservices, auto-scaling",
+      "AI/ML：advanced NLP, behavior prediction",
+      "区块链：完整Solana mainnet integration",
+      "DevOps：完整CI/CD pipeline, monitoring"
+    ],
+    "technicalConsiderations": "关键技术考量",
+    "considerationsIntro": "确保Order X系统长期成功需要关注四个关键技术领域：",
+    "securityArchitecture": "安全架构",
+    "securityDesc": "确保系统和用户数据的完整性和保护。",
+    "securityDetails": [
+      "多层次身份验证",
+      "数据加密（静态和传输中）",
+      "定期安全审计",
+      "漏洞赏金计划",
+      "安全事件响应计划"
+    ],
+    "scalabilityPlanning": "扩展性规划",
+    "scalabilityDesc": "确保系统能够无缝增长以支持用户基础扩展。",
+    "scalabilityDetails": [
+      "水平扩展基础设施",
+      "微服务架构",
+      "缓存策略",
+      "数据分片",
+      "负载均衡和自动扩展"
+    ],
+    "performanceOptimization": "性能优化",
+    "performanceDesc": "确保系统快速响应和高效运行。",
+    "performanceDetails": [
+      "API响应优化",
+      "查询效率",
+      "资源分配",
+      "CDN整合",
+      "异步处理"
+    ],
+    "integrationCapabilities": "集成能力",
+    "integrationDesc": "确保系统能够与其他平台和服务无缝连接。",
+    "integrationDetails": [
+      "标准化API设计",
+      "webhook支持",
+      "OAuth整合",
+      "事件驱动连接器",
+      "数据格式适配器"
+    ],
+    "riskAssessment": "技术风险评估",
+    "riskAreaDescription": "我们已识别并准备了缓解措施，应对五个主要风险领域：",
+    "riskArea": "风险领域",
+    "potentialIssue": "潜在问题",
+    "mitigationStrategy": "缓解策略",
+    "riskTable": [
+      {
+        "area": "数据收集",
+        "issue": "API限制和第三方平台变更",
+        "strategy": "备份数据来源, 平台特定适配器, API使用节流"
+      },
+      {
+        "area": "信号计算",
+        "issue": "欺诈行为和系统游戏化",
+        "strategy": "多重验证层, 异常检测, 动态算法调整"
+      },
+      {
+        "area": "区块链性能",
+        "issue": "交易成本和网络拥堵",
+        "strategy": "批处理交易, 混合链上/链下架构, 备用链"
+      },
+      {
+        "area": "用户体验",
+        "issue": "复杂性和技术障碍",
+        "strategy": "渐进式界面, 情境帮助, 无障碍设计"
+      },
+      {
+        "area": "系统扩展",
+        "issue": "快速增长导致性能下降",
+        "strategy": "过度配置基础设施, 自动扩展, 负载测试"
+      }
+    ],
+    "fallbackMechanisms": "每个关键系统都包含适当的回退机制：",
+    "fallbackList": [
+      "数据存储：冗余数据库与定期备份",
+      "区块链操作：临时中心化备用选项",
+      "社交平台集成：本地替代活动跟踪",
+      "用户认证：备选验证方法",
+      "系统可用性：地理分布式冗余"
+    ],
+    "metricsIndicators": "开发指标与成功指标",
+    "indicatorsIntro": "我们将通过五个关键指标追踪系统性能，确保持续改进：",
+    "kpiTitle": "关键绩效指标",
+    "systemReliability": "系统可靠性",
+    "reliabilityMetrics": [
+      "目标：99.95%系统正常运行时间",
+      "响应时间 < 200ms (95th 百分位)",
+      "每周计划维护时间 < 2小时"
+    ],
+    "transactionSuccess": "交易成功率",
+    "transactionMetrics": [
+      "区块链交易确认率 > 99.5%",
+      "链上数据验证准确性 > 99.9%",
+      "平均交易处理时间 < 5分钟"
+    ],
+    "dataAccuracy": "数据准确性",
+    "dataAccuracyMetrics": [
+      "信号归因准确率 > 98%",
+      "跨平台数据一致性 > 99%",
+      "异常检测假阳性率 < 0.5%"
+    ],
+    "userExperience": "用户体验",
+    "userExperienceMetrics": [
+      "每次会话平均活动完成率 > 85%",
+      "首次使用到成功参与的转化率 > 60%",
+      "支持请求 vs. 活跃用户比率 < 5%"
+    ],
+    "securityIncidents": "安全事件",
+    "securityMetrics": [
+      "严重安全事件 = 零容忍",
+      "漏洞平均修复时间 < 48小时",
+      "安全审计发现的严重问题 < 3/季度"
+    ],
+    "improvementProcess": "持续改进流程",
+    "improvementDetails": [
+      "每周技术指标审查",
+      "双周开发调整周期",
+      "月度系统重点改进",
+      "季度技术债务解决",
+      "半年架构评估"
+    ],
+    "continueToAI": "继续到 AI 实现",
+    "continue": "继续",
+    "previous": "上一页",
+    "next": "下一页",
+    "nextPage": "扩展与未来"
+  },
+  "expansion": {
+    "title": "扩展与未来发展",
+    "subtitle": "从协议到经济",
+    "quote1": "我们不是在推出一个代币，我们正在解锁一种新的商业模式。",
+    "quote2": "在推出代币之前，我们必须首先构建赋予它目的的东西。",
+    "quote3": "ORDER 不是你投资的代币 — 它是你引起的反应。",
+    "quote4": "总供应量是固定的。访问是开放的。分配是通过努力获得的。",
+    "quote5": "信号让你获得资格。ORDER 让你定制。",
+    "quote6": "我们不是开启市场。我们是点燃火种。",
+    "quote7": "代币不驱动投机。它驱动参与。参与驱动收入。",
+    "evolutionStrategy": "演变策略",
+    "evolutionIntro": "Order X 旨在成为一个持久的生态系统，而不仅仅是一次性的营销活动。这需要经过深思熟虑的发展路径：",
+    "strategyDescription": "Order X 设计了战略性的演变路径 — 从行为追踪系统开始，逐步成熟为社区驱动的经济引擎。这种演变分为三个不同阶段：",
+    "phase1": "阶段 1：基础（当前）",
+    "phase2": "阶段 2：扩展（3-6个月）",
+    "phase3": "阶段 3：代币化生态系统（6-12个月）",
+    "phase1Title": "基础",
+    "phase1Description": "初始阶段建立核心追踪和奖励机制：",
+    "phase1Points": [
+      "行为追踪系统的开发和部署",
+      "社区参与记录基础设施",
+      "初步奖励机制架构",
+      "关键社交平台整合",
+      "初始治理框架"
+    ],
+    "phase2Title": "扩展",
+    "phase2Description": "随着社区增长和Order信号数据积累，我们开始扩展阶段：",
+    "phase2Points": [
+      "Order Points 内部积分系统",
+      "增强型奖励体系",
+      "扩展到其他社交平台",
+      "更深入的产品集成",
+      "社区自治元素"
+    ],
+    "phase3Title": "$ORDER 代币化生态系统",
+    "phase3Description": "$ORDER 是 Solana 上 Order X 协议的原生代币。它代表了与传统代币模型的根本性背离：",
+    "phase3Points": [
+      "基于行为铸造的代币经济",
+      "通证化订单特权",
+      "社区市场动态",
+      "可组合性和跨系统集成",
+      "社区驱动治理"
+    ],
+    "multiPlatform": "多平台集成",
+    "platformsIntro": "为了创建真正全面的参与记录，我们必须超越单一平台：",
+    "platformsInclude": "Order X 扩展超越 Reddit 和 Twitter，包括：",
+    "platformsList": [
+      "Discord社区服务器",
+      "Instagram和TikTok内容创作",
+      "线下活动参与",
+      "专属手机应用互动",
+      "社区众筹与共创项目"
+    ],
+    "communityPoints": "社区积分系统",
+    "pointsIntro": "在完全代币化之前，过渡期内部积分系统：",
+    "pointsDescription": "在完全代币化之前，我们引入\"Order Points\"— 一个内部信用系统，它：",
+    "pointsFeatures": [
+      "将参与转化为可视化的进度指标",
+      "解锁基于贡献的特权和奖励",
+      "建立信任和行为记录历史",
+      "为未来代币分配奠定基础",
+      "作为代币化前的过渡机制运作"
+    ],
+    "enhancedRewards": "增强的奖励机制",
+    "rewardsIntro": "随着系统成熟，奖励机制变得更加精细和多样化：",
+    "rewardsExpand": "奖励系统扩展，包括：",
+    "rewardsList": [
+      "分层数字收藏品与徽章",
+      "独家内容与早期访问",
+      "与创作者和影响者的互动机会",
+      "实体体验和活动优先权",
+      "产品定制与独特体验"
+    ],
+    "tokenRevolutionary": "$ORDER 代币：革命性方法",
+    "tokenIntro": "ORDER代币不是典型的加密货币，而是一种全新的价值捕获机制：",
+    "noPreMining": "无预挖",
+    "noPreMiningDesc": "没有创始团队分配；所有代币通过参与产生",
+    "noVcFunding": "无风投资金",
+    "noVcFundingDesc": "没有私募轮；公平启动与社区优先",
+    "noCentralized": "无中心化分配",
+    "noCentralizedDesc": "没有团队、顾问或基金会分配",
+    "noInitialSupply": "无初始供应",
+    "noInitialSupplyDesc": "代币从零供应开始；100%通过行为铸造",
+    "totalSupply": "总供应量与通缩设计",
+    "supplyIntro": "经过精心校准的代币经济学，平衡稀缺性和可访问性：",
+    "maxSupply": "最大供应量：",
+    "maxSupplyValue": "1,000,000 $ORDER",
+    "initialCirculating": "初始流通供应量：",
+    "initialCirculatingValue": "0 $ORDER（100%通过参与铸造）",
+    "minting": "铸造：",
+    "mintingSchedule": [
+      "第1-3个月：每天最多铸造300 $ORDER",
+      "第4-6个月：每天最多铸造200 $ORDER",
+      "第7-12个月：每天最多铸造100 $ORDER",
+      "第12个月后：每天最多铸造50 $ORDER"
+    ],
+    "burningMechanisms": "燃烧机制：",
+    "burningDetails": [
+      "使用即燃烧：所有代币使用导致永久销毁",
+      "车辆订单使用：100-500代币/订单（取决于特权）",
+      "高级功能解锁：10-50代币/功能",
+      "独家物理商品：5-25代币/商品"
+    ],
+    "behaviorFlow": "行为 → 信号 → 铸造流程",
+    "flowIntro": "ORDER代币经济的核心是其独特的基于参与的铸造机制：",
+    "flowDescription": "$ORDER 代币经济基于一个革命性原则：代币不是被分配的 — 它们是通过可验证的参与赚取的：",
+    "userActions": "用户行动：",
+    "userActionsDesc": "Reddit帖子、Twitter转发、社区活动、小游戏",
+    "signalPoints": "信号积分：",
+    "signalPointsDesc": "每个行动都会产生链上积分（信号指数）",
+    "thresholdUnlock": "阈值解锁：",
+    "thresholdUnlockDesc": "达到阈值允许铸造权限",
+    "orderExtraction": "$ORDER 提取：",
+    "orderExtractionDesc": "通过智能合约基于行为快照启动铸造",
+    "signalOutput": "信号每日输出模型",
+    "outputIntro": "我们的系统设计有明确的信号生成限制和分配规则：",
+    "communityTotal": "社区总每日输出：",
+    "communityTotalDesc": [
+      "系统每日信号总上限：约50,000点（10,000活跃用户）",
+      "每个活跃用户平均：约5信号/天"
+    ],
+    "allocationRatio": "分配比率：",
+    "allocationRatioDesc": [
+      "社区内容创建（帖子、评论）：60%（30,000信号）",
+      "内容互动（赞、分享）：20%（10,000信号）",
+      "小游戏和休闲参与：15%（7,500信号）",
+      "特别活动和挑战：5%（2,500信号）"
+    ],
+    "individualLimits": "个人获取限制：",
+    "individualLimitsDesc": [
+      "普通用户每日上限：10信号",
+      "优质内容创作者：15-20信号",
+      "特别活动期间：25-30信号"
+    ],
+    "mintFormula": "铸造公式与机制：",
+    "mintFormulaDetails": [
+      "基本公式：1,000信号点 = 1 $ORDER代币",
+      "质量倍增器：高质量参与可获得1.1-1.5倍信号",
+      "持续性加成：连续参与增加0.05-0.2倍",
+      "每周上限：个人每周最多可铸造5 $ORDER",
+      "团体铸造：社区集体铸造事件每月进行"
+    ],
+    "useCases": "使用案例（实用驱动的稀缺性）",
+    "utilityIntro": "ORDER代币的真正价值来自其在生态系统中的实际用途：",
+    "utilityDescription": "$ORDER 代币的价值源于其在生态系统中的实用性：",
+    "action": "行动",
+    "orderRequired": "所需 $ORDER",
+    "effect": "效果",
+    "useCasesTable": [
+      {
+        "action": "FX预订解锁",
+        "required": "100",
+        "effect": "获取早期预订窗口"
+      },
+      {
+        "action": "FFOS定制软件模块",
+        "required": "50–200",
+        "effect": "激活独家软件功能"
+      },
+      {
+        "action": "实体商品访问",
+        "required": "10+",
+        "effect": "获取限定商品发布权限"
+      },
+      {
+        "action": "参加试驾/社区测试",
+        "required": "25",
+        "effect": "活动门票或白名单资格"
+      }
+    ],
+    "burnOnUse": "所有代币使用 = 使用即燃烧",
+    "fairLaunch": "公平发布与分配策略",
+    "launchIntro": "我们的代币发布模型与传统加密货币项目完全不同：",
+    "launchPath": "发布路径（需要社区投票）：",
+    "launchSteps": [
+      "第1步：社区宣布代币机制设计（无预挖、无私募）",
+      "第2步：发布代币智能合约代码，开放公共审计",
+      "第3步：启动信号资格铸造系统，初始为零供应",
+      "第4步：设置社区治理流程，决定未来发展",
+      "第5步：实现代币使用案例，构建实际价值"
+    ],
+    "subTokenExperiments": "子代币实验",
+    "subTokenDetails": [
+      "特定创作者合作子代币（如Snoop Dogg联名）",
+      "特殊版本车型专属代币",
+      "地区性社区子代币",
+      "特定功能和活动的限量代币"
+    ],
+    "liquidityMarket": "流动性与市场模型",
+    "liquidityDetails": [
+      "初始流动性由社区提供而非团队",
+      "交易基于自然用户需求，无人为市场",
+      "代币经济设计促进持有和使用而非交易",
+      "长期价值锚定实际车辆权益"
+    ],
+    "capitalRequirements": "早期资金需求（估计）",
+    "purpose": "目的",
+    "amount": "金额",
+    "notes": "备注",
+    "capitalTable": [
+      {
+        "purpose": "技术基础设施开发",
+        "amount": "$250,000-300,000",
+        "notes": "核心平台、API集成、安全架构"
+      },
+      {
+        "purpose": "用户体验与前端",
+        "amount": "$150,000-200,000",
+        "notes": "跨平台UI、仪表盘、互动元素"
+      },
+      {
+        "purpose": "区块链开发",
+        "amount": "$180,000-220,000",
+        "notes": "智能合约、信号验证系统、安全审计"
+      },
+      {
+        "purpose": "初始社区构建",
+        "amount": "$120,000-150,000",
+        "notes": "活动、内容创作、社区管理"
+      },
+      {
+        "purpose": "法律与合规",
+        "amount": "$100,000-150,000",
+        "notes": "法律框架、监管咨询、条款制定"
+      }
+    ],
+    "total": "总计（最低）",
+    "totalAmount": "$800,000-1,020,000",
+    "vehicleIntegration": "车辆集成策略",
+    "integrationDescription": "$ORDER 代币与车辆订单的关系经过精心校准：",
+    "notRequired": "$ORDER不是下FX订单的必要条件",
+    "notRequiredDetails": "所有传统订购渠道仍然可用，代币是增强方式而非要求",
+    "highSignalBenefits": "高信号用户持有$ORDER可获得：",
+    "signalBenefits": [
+      "折扣等级解锁",
+      "优先配置名额",
+      "社区专属套餐（外观改装、数字升级）",
+      "独家颜色和内饰选项",
+      "早期交付位置"
+    ],
+    "profitProjection": "利润预测模型",
+    "threeChannels": "Order X协议设计通过三个并行渠道产生价值：",
+    "channel": "渠道",
+    "mechanism": "机制",
+    "revenuePotential": "收入潜力",
+    "vehicleOrders": "车辆订单",
+    "vehicleOrdersRevenue": "$10M–15M",
+    "vehicleOrdersDesc": "基于信号的访问 + 折扣游戏化",
+    "vehicleOrdersDetails": "5,000–7,000辆FX订单（平均每辆$20K–22K）",
+    "tokenMarket": "$ORDER 代币市场",
+    "tokenMarketRevenue": "$8M–12M",
+    "tokenMarketDesc": "公平发布 + 市场主导流动性 + 隐形做市",
+    "tokenMarketDetails": "没有官方FF持股；通过外部钱包/基金会变现",
+    "equityUplift": "股权提升与品牌估值",
+    "equityUpliftRevenue": "$5M–10M",
+    "equityUpliftDesc": "叙事共鸣 + 社交关注 → FF股票提升",
+    "equityUpliftDetails": "通过全球社区参与带来1–2%的FF市值提升",
+    "revenueWheel": "收入飞轮",
+    "revenueWheelSteps": [
+      "用户加入Order X社区",
+      "参与 → 积累信号 → 铸造$ORDER",
+      "使用$ORDER解锁折扣、定制、早期访问",
+      "结果：更多FX订单，更多代币活动，更多关注"
+    ],
+    "revenueGoal": "🎯 目标：为FF创造至少$30M的直接和间接价值",
+    "breakdownAnalysis": "利润分解分析",
+    "metric": "指标",
+    "value": "价值",
+    "profitMetrics": [
+      {
+        "metric": "每辆车平均利润",
+        "value": "$2,800-3,200"
+      },
+      {
+        "metric": "协议驱动的额外车辆销售",
+        "value": "3,500-4,000辆"
+      },
+      {
+        "metric": "基于代币的平均收入（每位参与者）",
+        "value": "$120-180"
+      },
+      {
+        "metric": "参与者到订单转化率",
+        "value": "8-12%"
+      },
+      {
+        "metric": "平均客户获取成本节省",
+        "value": "40-50%"
+      }
+    ],
+    "continue": "继续",
+    "previous": "上一页",
+    "next": "下一页",
+    "copyright": "© 2025 法拉第未来 | Order X 协议 v1.0",
+    "page": "页",
+    "of": "/",
+    "nextPage": "启动计划"
+  },
+  "launch": {
+    "title": "启动计划与里程碑",
+    "subtitle": "90天革命",
+    "quote1": "我们没有发布日期，我们有点火序列。",
+    "launchPhilosophy": "启动理念",
+    "philosophyIntro": "Order X 的启动战略建立在三个关键原则之上，确保可持续的社区增长和产品成功：",
+    "launchPrinciples": "Order X 协议不仅仅是另一个产品发布—它是一个精心策划的社区激活序列。我们的方法遵循三个核心原则：",
+    "communityFirst": "社区优先",
+    "communityFirstDesc": "我们通过渐进式、有机的社区培养启动，而不是靠大规模广告爆炸。从小规模种子群体开始，通过真实参与和自然扩展建立基础。",
+    "testMeasureScale": "测试-衡量-扩展",
+    "testMeasureScaleDesc": "每次功能发布和社区活动都经过精心设计，有明确的衡量指标。我们快速测试，测量结果，然后再扩展成功的元素。",
+    "momentumCultivation": "动力培养",
+    "momentumCultivationDesc": "我们的时间表和活动安排旨在创造一种持续增长的感觉，战略性地设置关键里程碑以维持和增强社区兴趣。",
+    "phaseOverview": "阶段概述",
+    "phaseIntro": "我们将启动分为三个连续而不同的阶段，每个阶段都有特定的目标和重点：",
+    "phaseDescription": "Order X 的发布分为三个不同的30天阶段：",
+    "phase": "阶段",
+    "timeframe": "时间范围",
+    "focus": "重点",
+    "goal": "目标",
+    "foundationPhase": "1: 基础",
+    "accelerationPhase": "2: 加速",
+    "transcendencePhase": "3: 超越",
+    "days1to30": "第1-30天",
+    "days31to60": "第31-60天",
+    "days61to90": "第61-90天",
+    "communityActivation": "社区激活与基础设施",
+    "systemExpansion": "系统扩展与互动深度",
+    "tokenMechanics": "代币机制与生态系统成熟",
+    "establishCore": "建立核心社区（5,000+成员）",
+    "generateOrders": "产生初始订单（500+预订）",
+    "createMomentum": "创造病毒式传播动力（25,000+用户）",
+    "exploreDetail": "让我们详细探索每个阶段。",
+    "foundation": "阶段1：基础（1-30天）",
+    "foundationIntro": "启动的第一个月专注于建立稳固的社区基础和核心基础设施：",
+    "foundationDescription": "前30天专注于建立核心基础设施并激活种子社区。",
+    "week1": "第1周：隐秘激活",
+    "week1Activities": [
+      "在Reddit上启动秘密社区",
+      "邀请种子成员和影响者",
+      "部署基础Order Tracker应用",
+      "启动渐进式信息揭示"
+    ],
+    "week2": "第2周：初始内容浪潮",
+    "week2Activities": [
+      "协调Reddit和Twitter内容策略",
+      "发布第一批解释性文章和视频",
+      "推出简单的参与挑战",
+      "启动早期访问邀请系统"
+    ],
+    "week3": "第3周：社区机制",
+    "week3Activities": [
+      "启动初步信号追踪",
+      "举办首次社区AMA活动",
+      "实施初始奖励机制",
+      "建立社区管理团队"
+    ],
+    "week4": "第4周：首个里程碑事件",
+    "week4Activities": [
+      "发布完整Order X协议文档",
+      "主办首次社区庆祝活动",
+      "传统和新媒体公关推广",
+      "启动全面的社区激活"
+    ],
+    "redditCommunity": "Reddit社区刷新",
+    "coreInfrastructure": "核心基础设施部署",
+    "seedingAdopters": "培育早期采用者",
+    "contentProduction": "内容生产周期",
+    "socialInfrastructure": "社交基础设施",
+    "dataCollection": "数据收集初始化",
+    "signalSystem": "信号系统介绍",
+    "initialEngagement": "初始互动活动",
+    "ambassadorProgram": "大使计划形成",
+    "publicReveal": "Order X公开揭晓",
+    "initialReward": "初始奖励机制",
+    "dataReview": "数据审查与优化",
+    "foundationMetrics": "阶段1成功指标",
+    "foundationMetricsList": [
+      "活跃社区成员：5,000+",
+      "日平均参与度：参与率35%+",
+      "内容生成：每日100+社区帖子",
+      "网站注册：3,000+用户",
+      "早期采用者种子：1,000+活跃参与者",
+      "媒体覆盖：10+行业文章"
+    ],
+    "acceleration": "阶段2：加速（31-60天）",
+    "accelerationIntro": "第二个月专注于将基础转化为增长动力，深化参与并扩展功能集：",
+    "accelerationDescription": "第二个月专注于深化互动并扩展功能。",
+    "week5": "第5周：产品集成",
+    "week5Activities": [
+      "深化FF FX产品与Order X的关联",
+      "推出增强版车辆展示体验",
+      "建立产品定制预览",
+      "引入社区参与的产品反馈循环"
+    ],
+    "week6": "第6周：社区扩展",
+    "week6Activities": [
+      "启动大使计划",
+      "实施子社区和兴趣组",
+      "推出国际扩展战略",
+      "整合额外社交平台"
+    ],
+    "week7": "第7周：订单系统集成",
+    "week7Activities": [
+      "推出Order Gate初始版本",
+      "启动预订资格可视化",
+      "部署雷达板社区可视化",
+      "激活首批预订特权"
+    ],
+    "week8": "第8周：高级功能与中点事件",
+    "week8Activities": [
+      "推出完整的信号生态系统",
+      "举办大型虚拟社区活动",
+      "启动高级参与激励",
+      "公布初始订单数据与里程碑"
+    ],
+    "vehicleConnection": "车辆连接增强",
+    "signalExpansion": "信号系统扩展",
+    "engagementDeepening": "互动深化",
+    "crossPlatform": "跨平台增长战略",
+    "mediaRelations": "媒体关系计划",
+    "internationalCommunity": "国际社区发展",
+    "preOrderMechanism": "预订机制激活",
+    "orderRadar": "订单雷达可视化",
+    "communityAchievement": "社区成就事件",
+    "advancedSignal": "信号扩展",
+    "showcaseEvent": "Order X展示事件",
+    "firstOrderWave": "首波订单",
+    "accelerationMetrics": "阶段2成功指标",
+    "accelerationMetricsList": [
+      "活跃社区成员：15,000+",
+      "钱包连接率：40%+注册用户",
+      "初始订单：500+车辆预订",
+      "参与深度：平均每位活跃用户每周4+互动",
+      "内容创作：每日1,000+社交提及",
+      "社区满意度：NPS 60+"
+    ],
+    "transcendence": "阶段3：超越（61-90天）",
+    "transcendenceIntro": "最后30天将Order X从产品发布转变为社会运动，引入代币机制，并创造病毒式传播：",
+    "transcendenceDescription": "最后一个月将Order X从系统转变为运动，引入代币机制并创造病毒式传播动力。",
+    "week9": "第9周：代币机制准备",
+    "week9Activities": [
+      "公布完整的代币机制和经济学",
+      "完成安全审计和基础设施准备",
+      "举办社区教育活动",
+      "构建社区领导者启动网络"
+    ],
+    "week10": "第10周：代币发布与初始机制",
+    "week10Activities": [
+      "启动代币铸造资格机制",
+      "部署初始代币实用功能",
+      "推出第一批相关NFT和数字收藏品",
+      "激活代币集体铸造事件"
+    ],
+    "week11": "第11周：完整生态系统激活",
+    "week11Activities": [
+      "启动全部代币实用案例",
+      "整合车辆配置与代币系统",
+      "推出完整的社区市场",
+      "部署高级订单功能"
+    ],
+    "week12": "第12周：全球发布与社区进化",
+    "week12Activities": [
+      "举办全球同步发布活动",
+      "启动病毒式增长激励计划",
+      "公布长期路线图和生态系统愿景",
+      "宣布初始FF x Order X收益数据"
+    ],
+    "tokenStructure": "代币结构公告",
+    "technicalInfrastructure": "技术基础设施完成",
+    "preMint": "预铸造互动",
+    "firstMint": "首次铸造资格",
+    "initialUtility": "初始实用性实施",
+    "ecosystemExpansion": "生态系统扩展",
+    "communityMarket": "社区市场形成",
+    "advancedOrder": "高级订单功能",
+    "viralExpansion": "病毒式扩展战略",
+    "globalLaunch": "全球发布活动",
+    "transcendenceMetrics": "阶段3成功指标",
+    "goatIntegration": "GOAT x Order X 整合计划",
+    "goatQuote1": "你不是签约了一个名人。你触发了一个Web3点火协议。",
+    "goatQuote2": "你不仅仅是在订购一辆车。你是在加入一场运动——由Snoop设计，由你驱动。",
+    "goatQuote3": "第一款由Reddit塑造，由Snoop提供动力的汽车。",
+    "goatQuote4": "你的信号是你的门票。你的$ORDER是你的升级。",
+    "goatQuote5": "这不是加密货币。这是化学反应。",
+    "goatQuote6": "每一个燃烧的代币都是离方向盘更近一步。",
+    "goatQuote7": "社区不是观众。它是引擎。",
+    "goatQuote8": "有些公司花费数百万用于营销。我们创造了一个社区，他们为归属感而付费给我们。",
+    "coreIdea": "核心理念",
+    "coreIdeaDescription": "这个计划将GOAT x Faraday Future合作（与Snoop Dogg、Kendall Jenner、Chris Brown等文化影响力人物）和Order X行为驱动的社区协议结合，创造一个强大的三层生态系统：",
+    "threeLayerEcosystem": "文化偶像 × 社区共创 × 区块链激励",
+    "jordanNike": "这不仅仅是名人代言—这是一个文化基础设施时刻，通过电动汽车和加密原生社区逻辑重新想象的Jordan x Nike时刻。",
+    "integrationStructure": "整合结构",
+    "module": "模块",
+    "description": "描述",
+    "tokenBehaviorLink": "代币/行为联系",
+    "narrativeHooks": "叙事钩子",
+    "communityMechanics": "社区机制",
+    "goatCoCreation": "GOAT共创仪式",
+    "goatMilestoneNFTs": "GOAT里程碑NFTs",
+    "goatSubToken": "可选：GOAT子代币实验",
+    "synergyRevenue": "与收入模型的协同",
+    "valueContribution": "价值贡献",
+    "orders": "订单",
+    "token": "代币",
+    "equity": "股权",
+    "leadershipMessage": "我们告诉FF领导层的内容",
+    "implementationNotes": "实施注释",
+    "implementationDescription": "这个框架说明了文化合作如何激活已经设计到Order X架构中的组件。虽然我们在这个例子中使用Snoop Dogg，但该模型可以适应各种潜在的文化合作者。",
+    "seamlessIntegration": "与现有Order X模块的无缝整合：",
+    "valueAmplification": "价值放大：",
+    "valueChannel": "价值渠道",
+    "baseProjection": "基准预测",
+    "withGoatIntegration": "使用GOAT整合",
+    "goatTransformation": "GOAT x Order X整合将标准名人代言转变为动态共创系统，其中影响者、社区和代币经济相互强化，推动前所未有的参与和转化。",
+    "activeCommunity": "活跃社区成员",
+    "walletConnection": "钱包连接率",
+    "signalPoints": "信号点生成",
+    "ambassadors": "活跃大使",
+    "reservations": "车辆预订",
+    "tokenHolders": "代币持有者",
+    "mediaFeatures": "主要媒体报道",
+    "communityEvolution": "社区演进框架",
+    "futureExpansion": "未来扩展路线图",
+    "effect": "效果",
+    "continue": "继续",
+    "previous": "上一页",
+    "next": "下一页",
+    "nextPage": "首页"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+} 

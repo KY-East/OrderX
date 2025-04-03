@@ -1,0 +1,25 @@
+{
+  "auth": {
+    "passwordPrompt": "Enter Password",
+    "passwordPlaceholder": "Enter the access password",
+    "submit": "Submit",
+    "incorrect": "Incorrect password. Please try again."
+  },
+  "nav": {
+    "home": "Home",
+    "overview": "Overview",
+    "background": "Background",
+    "architecture": "Architecture",
+    "userJourney": "User Journey",
+    "technical": "Technical",
+    "expansion": "Expansion",
+    "launch": "Launch"
+  },
+  "home": {
+    "title": "Order X Protocol",
+    "subtitle": "Redefining Participation for the Future of Mobility",
+    "description": "A framework for meaningful community engagement in automotive industry",
+    "enterBtn": "Enter",
+    "poweredBy": "Powered by Blockchain Technology"
+  }
+} 

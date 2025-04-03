@@ -1,0 +1,443 @@
+@import '@/styles/variables.scss';
+
+.quote {
+  display: flex;
+  justify-content: center;
+  margin: $spacing-8 0;
+  
+  blockquote {
+    font-size: $font-size-xl;
+    font-style: italic;
+    color: var(--color-white);
+    text-align: center;
+    max-width: 800px;
+    line-height: $line-height-relaxed;
+    text-shadow: 0 2px 10px rgba(0, 163, 255, 0.3);
+    
+    @include for-md-up {
+      font-size: $font-size-2xl;
+    }
+    
+    @include for-lg-up {
+      font-size: $font-size-3xl;
+    }
+  }
+}
+
+.highlightQuote {
+  font-size: $font-size-lg;
+  font-style: italic;
+  color: var(--color-blue);
+  margin: $spacing-6 0;
+  padding: $spacing-4 $spacing-6;
+  border-left: 4px solid var(--color-blue);
+  background: rgba(0, 163, 255, 0.08);
+  border-radius: $radius-md;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  
+  @include for-md-up {
+    font-size: $font-size-xl;
+    padding: $spacing-6 $spacing-8;
+  }
+}
+
+.comparisonGrid {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-6;
+  margin: $spacing-8 0;
+  
+  @include for-md-up {
+    flex-direction: row;
+    gap: $spacing-8;
+  }
+}
+
+.comparisonColumn {
+  flex: 1;
+  background: rgba(20, 20, 20, 0.6);
+  border-radius: $radius-lg;
+  padding: $spacing-4 $spacing-5;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  
+  h4 {
+    font-family: $font-title;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-4;
+    color: var(--color-white);
+    text-align: center;
+    padding-bottom: $spacing-3;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  &:first-child {
+    border-left: 3px solid #FF4757;
+    h4 {
+      color: #FF4757;
+    }
+  }
+  
+  &:last-child {
+    border-left: 3px solid #2ED573;
+    h4 {
+      color: #2ED573;
+    }
+  }
+}
+
+.negativeList {
+  list-style: none;
+  padding-left: $spacing-4;
+  
+  li {
+    position: relative;
+    margin-bottom: $spacing-3;
+    padding: $spacing-2 $spacing-2 $spacing-2 $spacing-4;
+    background: rgba(255, 71, 87, 0.08);
+    border-radius: $radius-sm;
+    
+    &::before {
+      content: '❌';
+      position: absolute;
+      left: -$spacing-4;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.positiveList {
+  list-style: none;
+  padding-left: $spacing-4;
+  
+  li {
+    position: relative;
+    margin-bottom: $spacing-3;
+    padding: $spacing-2 $spacing-2 $spacing-2 $spacing-4;
+    background: rgba(46, 213, 115, 0.08);
+    border-radius: $radius-sm;
+    word-break: break-word;
+    
+    &::before {
+      content: '✅';
+      position: absolute;
+      left: -$spacing-4;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  
+  li {
+    margin-bottom: $spacing-5;
+    padding: $spacing-4 $spacing-6 $spacing-4 $spacing-8;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: $radius-md;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    
+    &::before {
+      content: '🌟';
+      position: absolute;
+      left: $spacing-3;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    strong {
+      color: var(--color-blue);
+      font-weight: $font-weight-semibold;
+      font-size: $font-size-base;
+      display: block;
+      margin-bottom: $spacing-1;
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: $font-size-sm;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: $spacing-12;
+  padding-top: $spacing-6;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 分页控制器样式 */
+.paginationControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-6;
+  padding: $spacing-3 $spacing-4;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: $radius-lg;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.pageInfo {
+  font-family: $font-code;
+  font-size: $font-size-sm;
+  color: var(--color-blue);
+  
+  span:first-child {
+    font-weight: $font-weight-bold;
+    color: var(--color-white);
+  }
+}
+
+.pageButtons {
+  display: flex;
+  gap: $spacing-2;
+}
+
+.pageButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: $radius-full;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-white);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+  &:hover {
+    background: var(--color-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 163, 255, 0.3);
+  }
+  
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+.continuePrompt {
+  display: flex;
+  justify-content: center;
+  margin: $spacing-12 0 $spacing-6;
+}
+
+.continueButton {
+  display: flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-3 $spacing-6;
+  border-radius: $radius-full;
+  border: none;
+  background: linear-gradient(45deg, var(--color-blue), var(--color-green));
+  color: $color-bg-dark;
+  font-weight: $font-weight-semibold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 163, 255, 0.3);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 163, 255, 0.4);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.paginationButtons {
+  display: flex;
+  justify-content: flex-start;
+  margin: $spacing-8 0;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-3 $spacing-5;
+  border-radius: $radius-full;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--color-white);
+  font-size: $font-size-sm;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--color-blue);
+    transform: translateX(-4px);
+  }
+}
+
+.textCard {
+  background: rgba(255, 255, 255, 0.03);
+  padding: $spacing-4;
+  border-radius: $radius-md;
+  border-left: 2px solid rgba(0, 163, 255, 0.3);
+  margin-bottom: $spacing-4;
+  
+  strong {
+    color: var(--color-blue);
+    font-weight: $font-weight-bold;
+  }
+}
+
+.listContainer {
+  background: rgba(255, 255, 255, 0.03);
+  padding: $spacing-4 $spacing-4 $spacing-4 $spacing-8;
+  border-radius: $radius-md;
+  
+  li {
+    margin-bottom: $spacing-2;
+    padding: $spacing-1 0;
+  }
+}
+
+.sectionHeading {
+  margin: $spacing-6 0 $spacing-4;
+  font-weight: $font-weight-semibold;
+  color: var(--color-blue);
+  font-size: $font-size-lg;
+  border-bottom: 1px solid rgba(0, 163, 255, 0.2);
+  padding-bottom: $spacing-2;
+}
+
+/* 互动区域样式 */
+.interactiveSection {
+  margin: $spacing-10 0;
+  padding: $spacing-6;
+  background: rgba(0, 163, 255, 0.02);
+  border-radius: $radius-lg;
+  border: 1px solid rgba(0, 163, 255, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 163, 255, 0.05), rgba(0, 255, 157, 0.02));
+    border-radius: $radius-lg;
+    z-index: -1;
+  }
+}
+
+.interactiveQuestion {
+  font-size: $font-size-xl;
+  color: var(--color-blue);
+  margin-bottom: $spacing-6;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 163, 255, 0.2);
+  
+  strong {
+    font-weight: $font-weight-bold;
+    display: inline-block;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -$spacing-2;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to right, var(--color-blue), transparent);
+    }
+  }
+}
+
+/* 互动问题样式 */
+.interactiveOptions {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-3;
+  margin: $spacing-6 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: $spacing-3 $spacing-4;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: $radius-md;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.06);
+    transform: translateX(4px);
+  }
+  
+  &.selected {
+    background: rgba(0, 163, 255, 0.1);
+    border-color: var(--color-blue);
+  }
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: $spacing-3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .selected & {
+    border-color: var(--color-blue);
+  }
+}
+
+.checkmark {
+  width: 12px;
+  height: 12px;
+  background: var(--color-blue);
+  border-radius: 2px;
+}
+
+.responseCard {
+  background: linear-gradient(to right, rgba(0, 163, 255, 0.1), rgba(0, 255, 157, 0.05));
+  padding: $spacing-4 $spacing-6;
+  border-radius: $radius-md;
+  margin: $spacing-6 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-left: 3px solid var(--color-blue);
+  
+  p {
+    margin: 0;
+    color: var(--color-white);
+    line-height: $line-height-relaxed;
+    
+    strong {
+      color: var(--color-green);
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+.promptNote {
+  text-align: center;
+  font-size: $font-size-sm;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: $spacing-4;
+  
+  em {
+    font-style: italic;
+  }
+} 

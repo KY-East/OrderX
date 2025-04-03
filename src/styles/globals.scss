@@ -1,0 +1,90 @@
+@import 'variables';
+
+:root {
+  --color-bg-dark: #{$color-bg-dark};
+  --color-blue: #{$color-blue};
+  --color-green: #{$color-green};
+  --color-white: #{$color-white};
+  --color-success: #{$color-success};
+  --color-warning: #{$color-warning};
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: $font-body;
+  background-color: var(--color-bg-dark);
+  color: var(--color-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-title;
+  letter-spacing: -0.02em;
+}
+
+code, pre {
+  font-family: $font-code;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+  transition: color $transition-fast ease;
+
+  &:hover {
+    color: var(--color-green);
+  }
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-4;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 0 $spacing-6;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--color-blue), var(--color-green));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+// Animation utilities
+.fade-in {
+  animation: fadeIn $transition-medium ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} 

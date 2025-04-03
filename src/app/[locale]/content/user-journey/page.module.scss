@@ -1,0 +1,390 @@
+@import '@/styles/variables.scss';
+
+.quote {
+  display: flex;
+  justify-content: center;
+  margin: $spacing-8 0;
+  
+  blockquote {
+    font-size: $font-size-xl;
+    font-style: italic;
+    color: var(--color-white);
+    text-align: center;
+    max-width: 800px;
+    line-height: $line-height-relaxed;
+    
+    @include for-md-up {
+      font-size: $font-size-2xl;
+    }
+    
+    @include for-lg-up {
+      font-size: $font-size-3xl;
+    }
+  }
+}
+
+.textCard {
+  background: rgba(255, 255, 255, 0.03);
+  padding: $spacing-4;
+  border-radius: $radius-md;
+  border-left: 2px solid rgba(0, 163, 255, 0.3);
+  margin-bottom: $spacing-6;
+  
+  p {
+    margin: 0;
+  }
+}
+
+.journeyOverview {
+  margin: $spacing-6 0;
+  
+  h3 {
+    color: var(--color-blue);
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-4;
+  }
+  
+  p {
+    margin-bottom: $spacing-4;
+  }
+}
+
+.stagesList {
+  margin: $spacing-6 0;
+  
+  h3 {
+    color: var(--color-blue);
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-4;
+  }
+}
+
+.stageCard {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-lg;
+  padding: $spacing-5;
+  margin-bottom: $spacing-5;
+  transition: transform $transition-medium, box-shadow $transition-medium;
+  border-left: 3px solid var(--color-blue);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadow-md;
+  }
+}
+
+.stageHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: $spacing-3;
+  
+  .stageIcon {
+    font-size: 2rem;
+    margin-right: $spacing-3;
+  }
+  
+  h4 {
+    color: var(--color-white);
+    font-size: $font-size-lg;
+    margin: 0;
+  }
+}
+
+.stageDescription {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: $spacing-4;
+}
+
+.keyElements {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-md;
+  padding: $spacing-4;
+  margin-bottom: $spacing-4;
+  
+  h5 {
+    color: var(--color-blue);
+    font-size: $font-size-base;
+    margin-bottom: $spacing-3;
+  }
+  
+  ul {
+    list-style-position: inside;
+    padding-left: $spacing-2;
+    
+    li {
+      margin-bottom: $spacing-2;
+    }
+  }
+}
+
+.userQuote {
+  font-style: italic;
+  color: var(--color-blue);
+  margin: $spacing-4 0;
+  padding: $spacing-3;
+  border-left: 4px solid var(--color-blue);
+  background: rgba(0, 163, 255, 0.05);
+  border-radius: $radius-md;
+  font-size: $font-size-sm;
+  
+  @include for-md-up {
+    font-size: $font-size-base;
+  }
+}
+
+.journeyMap {
+  margin: $spacing-6 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-lg;
+  padding: $spacing-5;
+  
+  h3 {
+    color: var(--color-blue);
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-4;
+    text-align: center;
+  }
+}
+
+.emotionalCurve {
+  padding: $spacing-4;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: $radius-md;
+  margin-bottom: $spacing-5;
+  text-align: center;
+  overflow-x: auto;
+  
+  .curveContent {
+    font-family: $font-code;
+    color: var(--color-green);
+    padding: $spacing-2;
+    white-space: nowrap;
+    min-width: 600px;
+  }
+}
+
+.personaSection {
+  margin: $spacing-6 0;
+  
+  h3 {
+    color: var(--color-blue);
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-4;
+  }
+}
+
+.personaGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-4;
+  
+  @include for-md-up {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.personaCard {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+  border-radius: $radius-lg;
+  padding: $spacing-4;
+  transition: transform $transition-medium, box-shadow $transition-medium;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: $shadow-md;
+  }
+  
+  h4 {
+    color: var(--color-white);
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-3;
+    padding-bottom: $spacing-2;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.personaDetails {
+  margin-bottom: $spacing-3;
+  
+  .detailItem {
+    margin-bottom: $spacing-2;
+    
+    strong {
+      color: var(--color-blue);
+      font-weight: $font-weight-semibold;
+    }
+  }
+}
+
+.experienceMoments {
+  margin: $spacing-6 0;
+  
+  h3 {
+    color: var(--color-blue);
+    font-size: $font-size-lg;
+    margin-bottom: $spacing-4;
+  }
+}
+
+.momentCard {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-md;
+  padding: $spacing-4;
+  margin-bottom: $spacing-4;
+  border-left: 3px solid var(--color-green);
+  
+  h4 {
+    color: var(--color-white);
+    font-size: $font-size-base;
+    margin-bottom: $spacing-3;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.tableContainer {
+  overflow-x: auto;
+  margin: $spacing-4 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-md;
+  padding: $spacing-3;
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    
+    th, td {
+      padding: $spacing-3;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    th {
+      font-weight: $font-weight-semibold;
+      color: var(--color-blue);
+    }
+    
+    tr:last-child td {
+      border-bottom: none;
+    }
+  }
+}
+
+.navigationButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: $spacing-8 0;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-3 $spacing-5;
+  border-radius: $radius-full;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--color-white);
+  font-size: $font-size-sm;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--color-blue);
+  }
+  
+  &:first-child:hover {
+    transform: translateX(-4px);
+  }
+  
+  &:last-child:hover {
+    transform: translateX(4px);
+  }
+}
+
+.continuePrompt {
+  display: flex;
+  justify-content: center;
+  margin: $spacing-12 0 $spacing-6;
+}
+
+.continueButton {
+  display: flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-3 $spacing-6;
+  border-radius: $radius-full;
+  border: none;
+  background: linear-gradient(45deg, var(--color-blue), var(--color-green));
+  color: $color-bg-dark;
+  font-weight: $font-weight-semibold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 163, 255, 0.3);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 163, 255, 0.4);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-6;
+  padding: $spacing-3 $spacing-4;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: $radius-lg;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.pageInfo {
+  font-family: $font-code;
+  font-size: $font-size-sm;
+  color: var(--color-blue);
+  
+  span:first-child {
+    font-weight: $font-weight-bold;
+    color: var(--color-white);
+  }
+}
+
+.pageButtons {
+  display: flex;
+  gap: $spacing-2;
+}
+
+.pageButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: $radius-full;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-white);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+  &:hover {
+    background: var(--color-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 163, 255, 0.3);
+  }
+  
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+} 

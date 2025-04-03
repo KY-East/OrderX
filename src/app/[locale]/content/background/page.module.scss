@@ -1,0 +1,458 @@
+@import '@/styles/variables.scss';
+
+.quote {
+  display: flex;
+  justify-content: center;
+  margin: $spacing-8 0;
+  
+  blockquote {
+    font-size: $font-size-xl;
+    font-style: italic;
+    color: var(--color-white);
+    text-align: center;
+    max-width: 800px;
+    line-height: $line-height-relaxed;
+    
+    @include for-md-up {
+      font-size: $font-size-2xl;
+    }
+    
+    @include for-lg-up {
+      font-size: $font-size-3xl;
+    }
+  }
+}
+
+.challengeCard {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-lg;
+  padding: $spacing-6;
+  margin-bottom: $spacing-8;
+  border-left: 4px solid var(--color-blue);
+  transition: transform $transition-medium, box-shadow $transition-medium;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-md;
+  }
+  
+  @include for-md-up {
+    padding: $spacing-8;
+  }
+}
+
+.challengeTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: $spacing-4;
+  font-family: $font-title;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+  color: var(--color-white);
+  
+  @include for-md-up {
+    font-size: $font-size-2xl;
+  }
+}
+
+.icon {
+  margin-right: $spacing-3;
+  font-size: 1.5em;
+}
+
+.challengeQuote {
+  font-style: italic;
+  color: var(--color-blue);
+  margin-top: $spacing-4;
+  padding-top: $spacing-4;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ffChallenges {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-6;
+  margin: $spacing-6 0;
+  
+  @include for-md-up {
+    flex-direction: row;
+    gap: $spacing-8;
+  }
+}
+
+.ffChallenge {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-lg;
+  padding: $spacing-6;
+  border-top: 4px solid var(--color-green);
+  
+  h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing-4;
+    font-family: $font-title;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    color: var(--color-white);
+    
+    @include for-md-up {
+      font-size: $font-size-xl;
+    }
+  }
+}
+
+.highlightQuote {
+  font-size: $font-size-lg;
+  font-style: italic;
+  color: var(--color-blue);
+  margin: $spacing-6 0;
+  padding: $spacing-4;
+  border-left: 4px solid var(--color-blue);
+  background: rgba(0, 163, 255, 0.05);
+  border-radius: $radius-md;
+  text-align: center;
+  
+  @include for-md-up {
+    font-size: $font-size-xl;
+    padding: $spacing-6;
+  }
+}
+
+.opportunityGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-6;
+  margin: $spacing-6 0;
+  
+  @include for-md-up {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @include for-lg-up {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.opportunity {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: $radius-lg;
+  padding: $spacing-6;
+  height: 100%;
+  
+  h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing-4;
+    font-family: $font-title;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    color: var(--color-white);
+    
+    @include for-md-up {
+      font-size: $font-size-xl;
+    }
+  }
+}
+
+.solutionGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-6;
+  margin: $spacing-8 0;
+  
+  @include for-md-up {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.solution {
+  background: linear-gradient(135deg, rgba(0, 163, 255, 0.1), rgba(0, 255, 157, 0.05));
+  border-radius: $radius-lg;
+  padding: $spacing-6;
+  text-align: center;
+  position: relative;
+  
+  h3 {
+    font-family: $font-title;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-4;
+    color: var(--color-white);
+    
+    @include for-md-up {
+      font-size: $font-size-xl;
+    }
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.solutionNumber {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, var(--color-blue), var(--color-green));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-lg;
+  margin: 0 auto $spacing-4;
+  
+  @include for-md-up {
+    width: 50px;
+    height: 50px;
+    font-size: $font-size-xl;
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: $font-size-sm;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: $spacing-12;
+  padding-top: $spacing-6;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 分页控制器样式 */
+.paginationControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-6;
+  padding: $spacing-3 $spacing-4;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: $radius-lg;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.pageInfo {
+  font-family: $font-code;
+  font-size: $font-size-sm;
+  color: var(--color-blue);
+  
+  span:first-child {
+    font-weight: $font-weight-bold;
+    color: var(--color-white);
+  }
+}
+
+.pageButtons {
+  display: flex;
+  gap: $spacing-2;
+}
+
+.pageButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: $radius-full;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-white);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+  &:hover {
+    background: var(--color-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 163, 255, 0.3);
+  }
+  
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+.continuePrompt {
+  display: flex;
+  justify-content: center;
+  margin: $spacing-12 0 $spacing-6;
+}
+
+.continueButton {
+  display: flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-3 $spacing-6;
+  border-radius: $radius-full;
+  border: none;
+  background: linear-gradient(45deg, var(--color-blue), var(--color-green));
+  color: $color-bg-dark;
+  font-weight: $font-weight-semibold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 163, 255, 0.3);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 163, 255, 0.4);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.paginationButtons {
+  display: flex;
+  justify-content: flex-start;
+  margin: $spacing-8 0;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-3 $spacing-5;
+  border-radius: $radius-full;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--color-white);
+  font-size: $font-size-sm;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--color-blue);
+    transform: translateX(-4px);
+  }
+}
+
+/* 互动区域样式 */
+.interactiveSection {
+  margin: $spacing-10 0;
+  padding: $spacing-6;
+  background: rgba(0, 163, 255, 0.02);
+  border-radius: $radius-lg;
+  border: 1px solid rgba(0, 163, 255, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 163, 255, 0.05), rgba(0, 255, 157, 0.02));
+    border-radius: $radius-lg;
+    z-index: -1;
+  }
+}
+
+.interactiveQuestion {
+  font-size: $font-size-xl;
+  color: var(--color-blue);
+  margin-bottom: $spacing-6;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 163, 255, 0.2);
+  
+  strong {
+    font-weight: $font-weight-bold;
+    display: inline-block;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -$spacing-2;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to right, var(--color-blue), transparent);
+    }
+  }
+}
+
+/* 互动问题样式 */
+.interactiveOptions {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-3;
+  margin: $spacing-6 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: $spacing-3 $spacing-4;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: $radius-md;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.06);
+    transform: translateX(4px);
+  }
+  
+  &.selected {
+    background: rgba(0, 163, 255, 0.1);
+    border-color: var(--color-blue);
+  }
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: $spacing-3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .selected & {
+    border-color: var(--color-blue);
+  }
+}
+
+.checkmark {
+  width: 12px;
+  height: 12px;
+  background: var(--color-blue);
+  border-radius: 2px;
+}
+
+.responseCard {
+  background: linear-gradient(to right, rgba(0, 163, 255, 0.1), rgba(0, 255, 157, 0.05));
+  padding: $spacing-4 $spacing-6;
+  border-radius: $radius-md;
+  margin: $spacing-6 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-left: 3px solid var(--color-blue);
+  
+  p {
+    margin: 0;
+    color: var(--color-white);
+    line-height: $line-height-relaxed;
+    
+    strong {
+      color: var(--color-green);
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+.promptNote {
+  text-align: center;
+  font-size: $font-size-sm;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: $spacing-4;
+  
+  em {
+    font-style: italic;
+  }
+} 
