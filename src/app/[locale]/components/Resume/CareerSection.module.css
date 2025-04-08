@@ -1,0 +1,109 @@
+.section {
+  padding: 4rem 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #00A3FF;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #00A3FF, #00FF9D);
+}
+
+.timelineItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.timelineItem:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.period {
+  width: 30%;
+  text-align: right;
+  padding-right: 2rem;
+  color: #00FF9D;
+  font-size: 1.2rem;
+}
+
+.timelineItem:nth-child(odd) .period {
+  text-align: left;
+  padding-right: 0;
+  padding-left: 2rem;
+}
+
+.content {
+  width: 30%;
+  padding-left: 2rem;
+}
+
+.timelineItem:nth-child(odd) .content {
+  padding-left: 0;
+  padding-right: 2rem;
+  text-align: right;
+}
+
+.careerTitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 0;
+  }
+
+  .timelineItem,
+  .timelineItem:nth-child(odd) {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .period,
+  .timelineItem:nth-child(odd) .period {
+    width: auto;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .content,
+  .timelineItem:nth-child(odd) .content {
+    width: auto;
+    padding: 0;
+    text-align: left;
+  }
+} 

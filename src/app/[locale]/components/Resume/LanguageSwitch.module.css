@@ -1,0 +1,26 @@
+.switch {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 163, 255, 0.1);
+  border: 1px solid #00A3FF;
+  color: #00A3FF;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.switch:hover {
+  background: rgba(0, 163, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .switch {
+    top: 1rem;
+    right: 1rem;
+  }
+} 
