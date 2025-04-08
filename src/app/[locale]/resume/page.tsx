@@ -62,7 +62,7 @@ export default function ResumePage() {
                   "Led the Cyber Emergence exhibit at Longfu Temple, Beijing – featured on BTV (Beijing TV)."
                 ]
               },
-              "2023 年 5 月主持一场创下记录的 Twitter Space，吸引 56 万+ 全球听众.",
+              "Hosted a record-breaking Twitter Space in May 2023, attracting over 560,000 global listeners.",
               "Known for strategic storytelling, user-centric growth loops, and token-economic systems that spark true community momentum."
             ]
           },
