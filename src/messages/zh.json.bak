@@ -206,12 +206,12 @@
     "interoperability": "互操作性",
     "interoperabilityDesc": "与现有系统和未来扩展无缝集成",
     "sixCoreModules": "六个核心模块：",
-    "orderTracker": "订单追踪器",
+    "orderTracker": "订单跟踪",
     "orderTrackerDesc": "记录和验证社区参与行为的核心引擎",
-    "signalBuilder": "信号构建器",
-    "signalBuilderDesc": "将验证的行为转化为定量信号点值",
+    "signalBuilder": "信号灯积分",
+    "signalBuilderDesc": "将验证的行为转化为定量信号灯积分点值",
     "orderGate": "订单门户",
-    "orderGateDesc": "信号和特权之间的界面",
+    "orderGateDesc": "信号灯积分和特权之间的界面",
     "rewardLayer": "奖励层",
     "rewardLayerDesc": "管理和分配激励的系统",
     "radarBoard": "雷达面板",
@@ -242,7 +242,7 @@
       "法规合规性 (GDPR, CCPA)",
       "跨设备用户身份保持"
     ],
-    "signalValueExamples": "信号值示例：",
+    "signalValueExamples": "信号灯积分值示例：",
     "signalExamples": [
       "高质量社区帖子：+3-5点",
       "有意义的评论：+1-2点",
@@ -261,11 +261,11 @@
     ],
     "accessTiers": "访问层级：",
     "accessTiersList": [
-      "浏览者（0-99信号）：基础社区访问",
-      "贡献者（100-499信号）：扩展内容和活动",
-      "影响者（500-999信号）：专属活动和预览",
-      "先锋（1000-1999信号）：早期功能访问和特别活动",
-      "创始者（2000+信号）：产品优先级和独家权益"
+      "浏览者（0-99信号灯积分）：基础社区访问",
+      "贡献者（100-499信号灯积分）：扩展内容和活动",
+      "影响者（500-999信号灯积分）：专属活动和预览",
+      "先锋（1000-1999信号灯积分）：早期功能访问和特别活动",
+      "创始者（2000+信号灯积分）：产品优先级和独家权益"
     ],
     "designPhilosophy": "设计理念：",
     "gateDesign": [
@@ -286,7 +286,7 @@
     "moduleDTitle": "模块 D：奖励层",
     "moduleDDesc": "奖励层将Order Signal成就与实际利益相连接，创造即时和长期的激励机制。",
     "rewardLayerFunctions": [
-      "基于信号积累分配奖励",
+      "基于信号灯积分积累分配奖励",
       "管理折扣码和特殊配置",
       "为符合资格的用户安排独家体验",
       "跟踪奖励兑换和满意度"
@@ -326,15 +326,15 @@
     "integrationFramework": "集成框架",
     "circularFlow": "这种循环流动确保：",
     "integrationDesc": "OrderX的系统模块在一个无缝集成的框架中协同工作，实现全方位的用户体验和数据流动。",
-    "orderTracker": "订单追踪器",
-    "signalBuilder": "信号构建器",
+    "orderTracker": "订单跟踪",
+    "signalBuilder": "信号灯积分",
     "orderGate": "订单门户",
     "radarBoard": "雷达板",
     "rewardLayer": "奖励层",
     "futureLayer": "未来层",
     "flowBenefits": [
-      "用户行为被准确捕获并转化为有价值的信号",
-      "信号积累解锁增强的订单体验和特权",
+      "用户行为被准确捕获并转化为有价值的信号灯积分",
+      "信号灯积分积累解锁增强的订单体验和特权",
       "独特的激励机制促进持续参与",
       "社区活动和贡献得到公开认可",
       "系统随社区增长而扩展和适应"
@@ -343,8 +343,8 @@
     "continue": "继续",
     "previous": "上一页",
     "nextPage": "用户旅程与体验",
-    "moduleATitle": "模块 A：订单追踪器",
-    "moduleADesc": "订单追踪器是用户旅程的起点，连接用户活动与Order X生态系统。",
+    "moduleATitle": "模块 A：订单跟踪",
+    "moduleADesc": "订单跟踪是用户旅程的起点，连接用户活动与Order X生态系统。",
     "orderTrackerImplementation": [
       "多平台行为收集API",
       "身份验证与防欺诈系统",
@@ -352,13 +352,13 @@
       "隐私保护合规层"
     ],
     "orderTrackerQuote": "最佳数据捕获是不被察觉的——像空气一样存在，但在每次互动中都至关重要。",
-    "moduleBTitle": "模块 B：信号构建器",
-    "moduleBDesc": "信号构建器将原始参与数据转化为可量化的"订单信号"，代表用户的参与价值。",
+    "moduleBTitle": "模块 B：信号灯积分",
+    "moduleBDesc": "信号灯积分将原始参与数据转化为可量化的"订单信号灯积分"，代表用户的参与价值。",
     "signalBuilderFunctions": [
-      "基于活动和参与度计算信号值",
+      "基于活动和参与度计算信号灯积分值",
       "应用质量乘数和背景因素",
-      "跟踪信号累积和阈值进展",
-      "管理信号随时间的衰减和增强"
+      "跟踪信号灯积分累积和阈值进展",
+      "管理信号灯积分随时间的衰减和增强"
     ],
     "signalBuilderPrinciples": [
       "参与度深度与持续性的平衡",
@@ -366,11 +366,11 @@
       "认可各种形式的有价值贡献",
       "提供透明的成长途径"
     ],
-    "signalBuilderQuote": "每个系统都需要自己的语言。订单信号就是我们将参与转化为特权的方式。",
+    "signalBuilderQuote": "每个系统都需要自己的语言。订单信号灯积分就是我们将参与转化为特权的方式。",
     "moduleCTitle": "模块 C：订单门户",
-    "moduleCDesc": "订单门户根据用户的订单信号值解锁不同级别的参与和特权。",
+    "moduleCDesc": "订单门户根据用户的订单信号灯积分值解锁不同级别的参与和特权。",
     "orderGateFunctions": [
-      "验证用户信号积分和资格",
+      "验证用户信号灯积分积分和资格",
       "提供分层访问控制系统",
       "促进特权级别的提升和变更",
       "管理独家订购机会和特殊配置"
@@ -389,14 +389,14 @@
     "stage2": "第 2 阶段：社区融入",
     "stage2Desc": "加入 Order X 社区并开始与内容、活动和其他成员互动",
     "stage3": "第 3 阶段：进度可视化",
-    "stage3Desc": "通过个人化仪表板跟踪参与进度、信号积累和社区贡献",
+    "stage3Desc": "通过个人化仪表板跟踪参与进度、信号灯积分积累和社区贡献",
     "stage4": "第 4 阶段：社区认可",
     "stage4Desc": "达到认可里程碑，获得社区角色升级和可见性",
     "stage5": "第 5 阶段：特权解锁",
-    "stage5Desc": "基于积累的信号解锁专属内容、体验和特权",
+    "stage5Desc": "基于积累的信号灯积分解锁专属内容、体验和特权",
     "stage6": "第 6 阶段：订单门户资格",
     "stage6Desc": "获得进入 Order Gate 的资格，解锁预订特权和独家选项",
-    "stage7": "第 7 阶段：超越订购",
+    "stage7": "第 7 阶段：订购",
     "stage7Desc": "在物理产品交付后继续参与社区互动和特权机会",
     "keyElements": "关键体验元素：",
     "discoveryExperience": "发现体验：",
@@ -419,7 +419,7 @@
     "dashboardElements": "仪表板核心功能：",
     "personalDashboard": "个人仪表板元素：",
     "dashboardList": [
-      "信号得分和历史追踪",
+      "信号灯积分得分和历史追踪",
       "解锁特权和机会可视化",
       "个人参与热图",
       "社区成就和徽章",
@@ -432,27 +432,27 @@
     "statusLevels": [
       {
         "level": "浏览者",
-        "requirements": "0-99 信号点",
+        "requirements": "0-99 信号灯积分点",
         "recognition": "基础社区访问"
       },
       {
         "level": "贡献者",
-        "requirements": "100-499 信号点",
+        "requirements": "100-499 信号灯积分点",
         "recognition": "贡献者徽章，专门 Discord 角色"
       },
       {
         "level": "影响者",
-        "requirements": "500-999 信号点",
+        "requirements": "500-999 信号灯积分点",
         "recognition": "影响者徽章，内容推广机会"
       },
       {
         "level": "先锋",
-        "requirements": "1000-1999 信号点",
+        "requirements": "1000-1999 信号灯积分点",
         "recognition": "先锋状态，专属活动邀请"
       },
       {
         "level": "创始者",
-        "requirements": "2000+ 信号点",
+        "requirements": "2000+ 信号灯积分点",
         "recognition": "创始者状态，产品影响力"
       }
     ],
@@ -570,10 +570,10 @@
     "loyalistFeatures": "品牌历史、专属回顾内容",
     "earlyAdopterFeatures": "首发体验、测试机会",
     "experienceMoments": "标志性体验时刻",
-    "firstSignal": "首次信号仪式",
-    "firstSignalDesc": "第一次信号点获取的特别庆祝，伴随着奖励和解锁内容",
+    "firstSignal": "首次信号灯积分仪式",
+    "firstSignalDesc": "第一次信号灯积分点获取的特别庆祝，伴随着奖励和解锁内容",
     "thresholdCelebrations": "阈值庆祝",
-    "thresholdDesc": "达到关键信号阈值时的社区公开认可和特别奖励",
+    "thresholdDesc": "达到关键信号灯积分阈值时的社区公开认可和特别奖励",
     "pioneerInduction": "先驱者入职",
     "pioneerDesc": "正式获得订单资格时的专属体验和特别礼遇",
     "configurationMoment": "配置时刻",
@@ -610,10 +610,10 @@
       "多端点数据聚合系统"
     ],
     "processingAnalytics": "处理与分析引擎",
-    "processingDesc": "将原始参与数据转化为有意义的信号和洞察。",
+    "processingDesc": "将原始参与数据转化为有意义的信号灯积分和洞察。",
     "processingDetails": [
       "行为分析算法套件",
-      "信号量化和分配引擎",
+      "信号灯积分量化和分配引擎",
       "用户模式识别系统",
       "实时参与评分",
       "异常检测与反欺诈措施"
@@ -623,7 +623,7 @@
     "blockchainDetails": [
       "Solana区块链整合",
       "轻量级验证机制",
-      "智能合约信号记录",
+      "智能合约信号灯积分记录",
       "链外数据与链上记录的混合系统",
       "多重签名安全保护"
     ],
@@ -656,7 +656,7 @@
       "资源和内容推荐",
       "用户旅程协助"
     ],
-    "signalQuality": "信号质量分析",
+    "signalQuality": "信号灯积分质量分析",
     "signalQualityDesc": "评估参与质量并防止游戏化的AI系统。",
     "signalQualityDetails": [
       "参与价值评估",
@@ -783,7 +783,7 @@
         "strategy": "备份数据来源, 平台特定适配器, API使用节流"
       },
       {
-        "area": "信号计算",
+        "area": "信号灯积分计算",
         "issue": "欺诈行为和系统游戏化",
         "strategy": "多重验证层, 异常检测, 动态算法调整"
       },
@@ -828,7 +828,7 @@
     ],
     "dataAccuracy": "数据准确性",
     "dataAccuracyMetrics": [
-      "信号归因准确率 > 98%",
+      "信号灯积分归因准确率 > 98%",
       "跨平台数据一致性 > 99%",
       "异常检测假阳性率 < 0.5%"
     ],
@@ -865,7 +865,7 @@
     "quote2": "在推出代币之前，我们必须首先构建赋予它目的的东西。",
     "quote3": "ORDER 不是你投资的代币 — 它是你引起的反应。",
     "quote4": "总供应量是固定的。访问是开放的。分配是通过努力获得的。",
-    "quote5": "信号让你获得资格。ORDER 让你定制。",
+    "quote5": "信号灯积分让你获得资格。ORDER 让你定制。",
     "quote6": "我们不是开启市场。我们是点燃火种。",
     "quote7": "代币不驱动投机。它驱动参与。参与驱动收入。",
     "evolutionStrategy": "演变策略",
@@ -884,7 +884,7 @@
       "初始治理框架"
     ],
     "phase2Title": "扩展",
-    "phase2Description": "随着社区增长和Order信号数据积累，我们开始扩展阶段：",
+    "phase2Description": "随着社区增长和Order信号灯积分数据积累，我们开始扩展阶段：",
     "phase2Points": [
       "Order Points 内部积分系统",
       "增强型奖励体系",
@@ -961,41 +961,41 @@
       "高级功能解锁：10-50代币/功能",
       "独家物理商品：5-25代币/商品"
     ],
-    "behaviorFlow": "行为 → 信号 → 铸造流程",
+    "behaviorFlow": "行为 → 信号灯积分 → 铸造流程",
     "flowIntro": "ORDER代币经济的核心是其独特的基于参与的铸造机制：",
     "flowDescription": "$ORDER 代币经济基于一个革命性原则：代币不是被分配的 — 它们是通过可验证的参与赚取的：",
     "userActions": "用户行动：",
     "userActionsDesc": "Reddit帖子、Twitter转发、社区活动、小游戏",
-    "signalPoints": "信号积分：",
-    "signalPointsDesc": "每个行动都会产生链上积分（信号指数）",
+    "signalPoints": "信号灯积分积分：",
+    "signalPointsDesc": "每个行动都会产生链上积分（信号灯积分指数）",
     "thresholdUnlock": "阈值解锁：",
     "thresholdUnlockDesc": "达到阈值允许铸造权限",
     "orderExtraction": "$ORDER 提取：",
     "orderExtractionDesc": "通过智能合约基于行为快照启动铸造",
-    "signalOutput": "信号每日输出模型",
-    "outputIntro": "我们的系统设计有明确的信号生成限制和分配规则：",
+    "signalOutput": "信号灯积分每日输出模型",
+    "outputIntro": "我们的系统设计有明确的信号灯积分生成限制和分配规则：",
     "communityTotal": "社区总每日输出：",
     "communityTotalDesc": [
-      "系统每日信号总上限：约50,000点（10,000活跃用户）",
-      "每个活跃用户平均：约5信号/天"
+      "系统每日信号灯积分总上限：约50,000点（10,000活跃用户）",
+      "每个活跃用户平均：约5信号灯积分/天"
     ],
     "allocationRatio": "分配比率：",
     "allocationRatioDesc": [
-      "社区内容创建（帖子、评论）：60%（30,000信号）",
-      "内容互动（赞、分享）：20%（10,000信号）",
-      "小游戏和休闲参与：15%（7,500信号）",
-      "特别活动和挑战：5%（2,500信号）"
+      "社区内容创建（帖子、评论）：60%（30,000信号灯积分）",
+      "内容互动（赞、分享）：20%（10,000信号灯积分）",
+      "小游戏和休闲参与：15%（7,500信号灯积分）",
+      "特别活动和挑战：5%（2,500信号灯积分）"
     ],
     "individualLimits": "个人获取限制：",
     "individualLimitsDesc": [
-      "普通用户每日上限：10信号",
-      "优质内容创作者：15-20信号",
-      "特别活动期间：25-30信号"
+      "普通用户每日上限：10信号灯积分",
+      "优质内容创作者：15-20信号灯积分",
+      "特别活动期间：25-30信号灯积分"
     ],
     "mintFormula": "铸造公式与机制：",
     "mintFormulaDetails": [
-      "基本公式：1,000信号点 = 1 $ORDER代币",
-      "质量倍增器：高质量参与可获得1.1-1.5倍信号",
+      "基本公式：1,000信号灯积分点 = 1 $ORDER代币",
+      "质量倍增器：高质量参与可获得1.1-1.5倍信号灯积分",
       "持续性加成：连续参与增加0.05-0.2倍",
       "每周上限：个人每周最多可铸造5 $ORDER",
       "团体铸造：社区集体铸造事件每月进行"
@@ -1035,7 +1035,7 @@
     "launchSteps": [
       "第1步：社区宣布代币机制设计（无预挖、无私募）",
       "第2步：发布代币智能合约代码，开放公共审计",
-      "第3步：启动信号资格铸造系统，初始为零供应",
+      "第3步：启动信号灯积分资格铸造系统，初始为零供应",
       "第4步：设置社区治理流程，决定未来发展",
       "第5步：实现代币使用案例，构建实际价值"
     ],
@@ -1071,7 +1071,7 @@
       {
         "purpose": "区块链开发",
         "amount": "$180,000-220,000",
-        "notes": "智能合约、信号验证系统、安全审计"
+        "notes": "智能合约、信号灯积分验证系统、安全审计"
       },
       {
         "purpose": "初始社区构建",
@@ -1090,7 +1090,7 @@
     "integrationDescription": "$ORDER 代币与车辆订单的关系经过精心校准：",
     "notRequired": "$ORDER不是下FX订单的必要条件",
     "notRequiredDetails": "所有传统订购渠道仍然可用，代币是增强方式而非要求",
-    "highSignalBenefits": "高信号用户持有$ORDER可获得：",
+    "highSignalBenefits": "高信号灯积分用户持有$ORDER可获得：",
     "signalBenefits": [
       "折扣等级解锁",
       "优先配置名额",
@@ -1105,7 +1105,7 @@
     "revenuePotential": "收入潜力",
     "vehicleOrders": "车辆订单",
     "vehicleOrdersRevenue": "$10M–15M",
-    "vehicleOrdersDesc": "基于信号的访问 + 折扣游戏化",
+    "vehicleOrdersDesc": "基于信号灯积分的访问 + 折扣游戏化",
     "vehicleOrdersDetails": "5,000–7,000辆FX订单（平均每辆$20K–22K）",
     "tokenMarket": "$ORDER 代币市场",
     "tokenMarketRevenue": "$8M–12M",
@@ -1118,7 +1118,7 @@
     "revenueWheel": "收入飞轮",
     "revenueWheelSteps": [
       "用户加入Order X社区",
-      "参与 → 积累信号 → 铸造$ORDER",
+      "参与 → 积累信号灯积分 → 铸造$ORDER",
       "使用$ORDER解锁折扣、定制、早期访问",
       "结果：更多FX订单，更多代币活动，更多关注"
     ],
@@ -1208,7 +1208,7 @@
     ],
     "week3": "第3周：社区机制",
     "week3Activities": [
-      "启动初步信号追踪",
+      "启动初步信号灯积分追踪",
       "举办首次社区AMA活动",
       "实施初始奖励机制",
       "建立社区管理团队"
@@ -1226,7 +1226,7 @@
     "contentProduction": "内容生产周期",
     "socialInfrastructure": "社交基础设施",
     "dataCollection": "数据收集初始化",
-    "signalSystem": "信号系统介绍",
+    "signalSystem": "信号灯积分系统介绍",
     "initialEngagement": "初始互动活动",
     "ambassadorProgram": "大使计划形成",
     "publicReveal": "Order X公开揭晓",
@@ -1267,13 +1267,13 @@
     ],
     "week8": "第8周：高级功能与中点事件",
     "week8Activities": [
-      "推出完整的信号生态系统",
+      "推出完整的信号灯积分生态系统",
       "举办大型虚拟社区活动",
       "启动高级参与激励",
       "公布初始订单数据与里程碑"
     ],
     "vehicleConnection": "车辆连接增强",
-    "signalExpansion": "信号系统扩展",
+    "signalExpansion": "信号灯积分系统扩展",
     "engagementDeepening": "互动深化",
     "crossPlatform": "跨平台增长战略",
     "mediaRelations": "媒体关系计划",
@@ -1281,7 +1281,7 @@
     "preOrderMechanism": "预订机制激活",
     "orderRadar": "订单雷达可视化",
     "communityAchievement": "社区成就事件",
-    "advancedSignal": "信号扩展",
+    "advancedSignal": "信号灯积分扩展",
     "showcaseEvent": "Order X展示事件",
     "firstOrderWave": "首波订单",
     "accelerationMetrics": "阶段2成功指标",
@@ -1339,7 +1339,7 @@
     "goatQuote1": "你不是签约了一个名人。你触发了一个Web3点火协议。",
     "goatQuote2": "你不仅仅是在订购一辆车。你是在加入一场运动——由Snoop设计，由你驱动。",
     "goatQuote3": "第一款由Reddit塑造，由Snoop提供动力的汽车。",
-    "goatQuote4": "你的信号是你的门票。你的$ORDER是你的升级。",
+    "goatQuote4": "你的信号灯积分是你的门票。你的$ORDER是你的升级。",
     "goatQuote5": "这不是加密货币。这是化学反应。",
     "goatQuote6": "每一个燃烧的代币都是离方向盘更近一步。",
     "goatQuote7": "社区不是观众。它是引擎。",
@@ -1373,7 +1373,7 @@
     "goatTransformation": "GOAT x Order X整合将标准名人代言转变为动态共创系统，其中影响者、社区和代币经济相互强化，推动前所未有的参与和转化。",
     "activeCommunity": "活跃社区成员",
     "walletConnection": "钱包连接率",
-    "signalPoints": "信号点生成",
+    "signalPoints": "信号灯积分点生成",
     "ambassadors": "活跃大使",
     "reservations": "车辆预订",
     "tokenHolders": "代币持有者",
