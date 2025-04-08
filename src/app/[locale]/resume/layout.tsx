@@ -1,10 +1,21 @@
 'use client';
 
+import React from 'react';
+import { notFound } from 'next/navigation';
+
+const locales = ['en', 'zh'];
+
 export default function Layout({
   children,
+  params: { locale }
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+
   return (
     <>
       <div style={{ 

@@ -1,7 +1,9 @@
 .container {
+  position: relative;
+  min-height: 100vh;
+  padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: padding 0.3s ease;
   background: #121212;
@@ -10,25 +12,32 @@
 
 .header {
   margin-bottom: 4rem;
+  padding-top: 60px; /* 为顶部遮罩留出空间 */
 }
 
 .profileContainer {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 3rem;
 }
 
 .imageWrapper {
   flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .profileImage {
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .titleContainer {
   flex-grow: 1;
+  padding-top: 1rem;
 }
 
 .name {
@@ -484,101 +493,123 @@
   line-height: 1.4;
 }
 
+.languageSwitchWrapper {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
   }
 
+  .header {
+    margin-bottom: 2rem;
+    padding-top: 40px;
+  }
+
   .profileContainer {
     flex-direction: column;
+    align-items: center;
+    gap: 2rem;
     text-align: center;
-    gap: 1.5rem;
   }
 
   .imageWrapper {
     width: 150px;
     height: 150px;
-    margin: 0 auto;
+  }
+
+  .titleContainer {
+    padding-top: 0;
   }
 
   .name {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .subtitle {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
   }
 
   .quote {
     font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
-  .careerTitle {
-    font-size: 1.2rem;
+  .socialLinks {
+    justify-content: center;
     flex-wrap: wrap;
   }
 
+  .achievements {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .achievementGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .achievementItem {
+    padding: 1rem;
+  }
+
+  .achievementNumber {
+    font-size: 2rem;
+  }
+
+  .achievementLabel {
+    font-size: 0.9rem;
+  }
+
+  .careerItem {
+    margin-bottom: 2rem;
+  }
+
+  .careerTitle {
+    font-size: 1.3rem;
+  }
+
   .period {
-    width: 100%;
+    display: block;
     margin-left: 0;
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
     font-size: 0.9rem;
   }
 
   .careerContent {
     font-size: 1rem;
-  }
-
-  .careerItem:hover {
-    transform: none;
+    line-height: 1.5;
   }
 
   .mediaGrid {
     grid-template-columns: 1fr;
-  }
-
-  .achievementGrid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .achievementNumber {
-    font-size: 2.5rem;
-  }
-
-  .achievementLabel {
-    font-size: 1rem;
-  }
-
-  .eventGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .eventImage {
-    height: 200px;
-  }
-
-  .eventContent h3 {
-    font-size: 1.2rem;
-  }
-
-  .achievements {
-    padding: 2rem;
+    gap: 1.5rem;
   }
 
   .mediaItem {
     padding: 1.5rem;
   }
 
-  .mediaItem h3 {
-    font-size: 1.2rem;
+  .videoSection {
+    margin: 2rem auto;
+    padding: 1rem;
   }
 
-  .mediaItem p {
-    font-size: 1rem;
+  .galleryGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
-  .mediaVideo {
-    max-height: 300px;
+  .languageSwitchWrapper {
+    bottom: 20px;
+    right: 20px;
   }
 }
 

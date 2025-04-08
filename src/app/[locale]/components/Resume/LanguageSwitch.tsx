@@ -1,19 +1,23 @@
+'use client';
+
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import styles from './LanguageSwitch.module.css';
 
-export function LanguageSwitch() {
+export default function LanguageSwitch() {
   const router = useRouter();
 
   const toggleLanguage = () => {
     const currentPath = window.location.pathname;
-    const newLocale = currentPath.includes('/zh') ? 'en' : 'zh';
-    router.push(currentPath.replace(/(\/[a-z]{2})?(\/.*)/, `/${newLocale}$2`));
+    const isZh = currentPath.includes('/zh/');
+    router.push(isZh ? '/en/resume' : '/zh/resume');
   };
 
+  const currentPath = window.location.pathname;
+  
   return (
     <button onClick={toggleLanguage} className={styles.switch}>
-      {window.location.pathname.includes('/zh') ? 'EN' : '中文'}
+      {currentPath.includes('/zh/') ? 'English' : '中文'}
     </button>
   );
 } 

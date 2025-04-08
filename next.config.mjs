@@ -18,7 +18,7 @@ const nextConfig = {
   // 支持静态导出
   output: isGithubPages ? 'export' : undefined,
   // 禁用i18n路由以支持静态导出
-  trailingSlash: isGithubPages,
+  trailingSlash: isGithubPages
 };
 
 export default withNextIntl(nextConfig); 
