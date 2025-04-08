@@ -52,20 +52,20 @@ export default function OnePage() {
           <p>Order X 由六个互联模块构成一个端到端社区参与-订购生态系统：</p>
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h4>订单追踪器</h4>
+              <h4>订单追踪</h4>
               <p>捕捉多平台真实社区行为</p>
             </div>
             <div className={styles.card}>
-              <h4>信号构建器</h4>
-              <p>将参与转化为可量化的"订单信号"</p>
+              <h4>Signal积分</h4>
+              <p>将参与转化为可量化的"信号灯（Signal）积分"</p>
             </div>
             <div className={styles.card}>
               <h4>订单门户</h4>
-              <p>基于信号累积设立订单资格阈值</p>
+              <p>基于Signal累积设立订单资格阈值</p>
             </div>
             <div className={styles.card}>
               <h4>奖励层</h4>
-              <p>连接信号成就与实际权益</p>
+              <p>连接Signal成就与实际权益</p>
             </div>
             <div className={styles.card}>
               <h4>雷达板</h4>
@@ -111,9 +111,12 @@ export default function OnePage() {
             </div>
             <div className={styles.step}>
               <span>订购</span>
+              <span></span>
             </div>
           </div>
-          <p>每个阶段都有标志性体验时刻（如"首个信号仪式"和"先锋入职"），促进用户情感连接：</p>
+          
+          <p>每个阶段都有标志性体验时刻（如"首个Signal仪式"和"先锋入职"），促进用户情感连接：</p>
+          
           <div className={styles.emotions}>
             <div className={styles.step}>
               <span>兴奋</span>
@@ -141,6 +144,7 @@ export default function OnePage() {
             </div>
             <div className={styles.step}>
               <span>倡导</span>
+              <span></span>
             </div>
           </div>
         </div>
@@ -154,8 +158,8 @@ export default function OnePage() {
           <div className={styles.subsection}>
             <ul className={styles.list}>
               <li>
-                <strong>信号灯积分生产循环：</strong>
-                每日社区总产量50,000点信号灯积分（内容创作60%，互动20%，游戏15%，活动5%）
+                <strong>Signal生产循环：</strong>
+                每日社区总产量50,000点Signal（内容创作60%，互动20%，游戏15%，活动5%）
               </li>
               <li>
                 <strong>稀缺性机制：</strong>
@@ -171,7 +175,7 @@ export default function OnePage() {
               <li><strong>使用即销毁</strong> - 所有代币使用都被销毁，创造实用驱动稀缺性</li>
               <li>
                 <strong>行为铸造公式</strong> - 
-                <code>可铸造$ORDER = log(累积信号灯积分) × 质量因子 × 活动乘数</code>
+                <code>可铸造$ORDER = log(累积Signal) × 质量因子 × 活动乘数</code>
               </li>
               <li><strong>最大供应</strong>：固定1亿枚，初始流通量为0</li>
             </ul>
@@ -206,7 +210,7 @@ export default function OnePage() {
             </div>
             <div className={styles.tableRow}>
               <div><strong>车辆订单</strong></div>
-              <div>基于信号灯积分的访问 + 折扣游戏化</div>
+              <div>基于Signal的访问 + 折扣游戏化</div>
               <div><strong>$10M–15M</strong></div>
             </div>
             <div className={styles.tableRow}>
@@ -221,7 +225,7 @@ export default function OnePage() {
             </div>
           </div>
           <p className={styles.highlight}>
-            <strong>收入飞轮：</strong> 参与→信号灯积分→代币→特权→更多订单→更多参与
+            <strong>收入飞轮：</strong> 参与→Signal→代币→特权→更多订单→更多参与
           </p>
           <blockquote className={styles.quote}>
             "The token doesn&apos;t drive speculation. It drives participation. Participation drives revenue."
@@ -239,7 +243,7 @@ export default function OnePage() {
               <h4>第1阶段：基础（1-30天）</h4>
               <ul className={styles.list}>
                 <li>社区激活与基础设施建立（目标：5,000+ 成员）</li>
-                <li>信号灯积分系统部署与首批内容浪潮</li>
+                <li>Signal系统部署与首批内容浪潮</li>
                 <li>核心技术平台上线</li>
               </ul>
             </div>
@@ -368,7 +372,7 @@ export default function OnePage() {
           <h3>早期资金需求（代币基础设施）</h3>
           <ul className={styles.list}>
             <li>网站+铸造UI：约$5,000</li>
-            <li>信号灯积分基础设施（后端）：约$8,000</li>
+            <li>Signal基础设施（后端）：约$8,000</li>
             <li>智能合约审计：约$12,000</li>
             <li>可选流动性：$10,000-30,000</li>
           </ul>
